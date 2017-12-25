@@ -1,123 +1,4 @@
 
-body {
-    font-family: 'proba_nav2';
-}
-.navbar-brand{
-    text-decoration: none;
-}
-
-.project-l-bg{
-    background-color: #AAA;
-    background-image: url(assets/project-metro-nav.png);
-    /*padding: 50px;*/
-    width: 660px;
-    height: 280px;
-}
-
-.project-l-heading{
-
-}
-
-.project-l-caption{
-    background-color: #000;
-    text-transform: uppercase;
-    color: #FFF;
-    vertical-align: top;
-    
-}
-
-.display-ib {
-    display: inline-block;
-}
-
-/*.anchor-nav{
-    position: relative;
-}*/
-
-.video-bg{
-    background-image: url(assets/youtube-cover.png);
-}
-
-.nav-link{
-    text-decoration: none;
-}
-
-a{
-    color: #29D277;
-    text-decoration: underline ;
-}
-
-.secondary-nav{
-    position: absolute;
-}
-
-.bg-black{
-    background-color: #000;
-}
-
-.mt-big{
-    margin-top: 160px;
-}
-
-.num {
-    background-color: #000000;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-
-}
-
-.num-sp {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 3px;
-    padding-top: 5px;
-    
-    color: #FFF;
-    font-size: 30px;
-    font-weight: 800;
-
-}
-
-.over-contact {
-    margin-top: -100px;
-}
-
-.quote {
-    font-family: serif;
-    font-size: 30px;
-    font-weight: 300;
-    color: #FF7F4F;
-}
-
-.navbar-light .navbar-nav .active>.nav-link {
-    color: #0EC269;
-}
-.border-primary {
-    border-color: #32DC77 !important;
-}
-
-.btn-primary {
-    background-color: #32DC77;
-    border-color: #32DC77;
-}
-
-.btn-primary:hover {
-    background-color: #0EC269;
-    border-color: #0EC269;
-}
-
-/**/
-.sel  {
-    padding-bottom: 4px;
-    border-bottom:2px solid  #0EC269;
-}
-
-h1, h2, h3, h4, h5 {
-    font-weight: 800;
-}
-
 @font-face {
     font-family: 'proba_nav2';
     src: url('https://cdn.a3.kyiv.ua/ProbaNav2.1/probanav2-thin-webfont.eot');
@@ -188,3 +69,137 @@ h1, h2, h3, h4, h5 {
     font-weight: 700;
     font-style: normal;
 }
+
+body {
+    font-family: 'proba_nav2';
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+}
+
+
+
+.navbar-brand{
+    text-decoration: none;
+}
+
+.project-l-bg{
+    background-color: #AAA;
+    background-image: url(assets/project-metro-nav.png);
+    /*padding: 50px;*/
+    width: 660px;
+    height: 280px;
+}
+
+.project-l-heading{
+
+}
+
+.project-l-caption{
+    background-color: #000;
+    text-transform: uppercase;
+    color: #FFF;
+    vertical-align: top;
+    
+}
+
+.display-ib {
+    display: inline-block;
+}
+
+/*.anchor-nav{
+    position: relative;
+}*/
+
+.video-bg{
+    background-image: url(assets/youtube-cover.png);
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+a {
+    color: #29D277;
+    text-decoration: underline ;
+}
+
+
+a:hover {
+    color: #FF5B3B;
+}
+
+.secondary-nav{
+    position: absolute;
+}
+
+.bg-black{
+    background-color: #000;
+}
+
+.mt-big{
+    margin-top: 160px;
+}
+
+.num {
+    background-color: #000000;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.num-sp {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 4px;
+    padding-top: 5px;
+    
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.over-contact {
+    margin-top: -100px;
+}
+
+.quote {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #FF7F4F;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #0EC269;
+}
+.border-primary {
+    border-color: #32DC77 !important;
+}
+
+.btn-primary {
+    background-color: #32DC77;
+    border-color: #32DC77;
+}
+
+.btn-primary:hover {
+    background-color: #0EC269;
+    border-color: #0EC269;
+}
+
+/**/
+.sel  {
+    padding-bottom: 4px;
+    border-bottom:2px solid  #0EC269;
+}
+
+.product-cover{
+    margin-top: -50px;
+}
+
+
+
