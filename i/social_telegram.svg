@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/social_telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/social_telegram">
+            <g id="telegram" transform="translate(1.000000, 4.000000)">
+                <path d="M19.8761078,0.464450371 C20.0041229,0.724184302 20.0375297,1.08803374 19.9235287,1.54373132 L16.9068621,15.7545647 C16.6968621,16.765398 16.0860287,17.0062313 15.2401954,16.5395647 L10.5011183,13.0382982 L8.42083333,15.0591667 C8.39020296,15.0889078 8.36035753,15.1180748 8.33077474,15.1463858 L7.45166667,16.2225 C6.85666667,16.2225 6.9575,15.9966667 6.7525,15.4316667 L5.02447334,9.74553043 L0.713528734,8.40206465 C-0.268971266,8.10123132 -0.2748046,7.42623132 0.933528734,6.94123132 L18.6451954,0.110397985 C19.0893904,-0.0906346063 19.5250296,-0.0120916363 19.7759405,0.305095169 C19.8371846,0.333423297 19.8705737,0.386541697 19.8761078,0.464450371 Z" id="body" fill="#000000" fill-rule="nonzero"></path>
+                <polygon id="Path-2" fill="#FFFFFF" points="7.22222222 13.8888889 6.66666667 8.88888889 17.7777778 2.22222222 8.33333333 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

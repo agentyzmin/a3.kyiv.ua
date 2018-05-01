@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Збираємо кошти на втілення проектів — Агенти змін</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- OG info for sharing -->
+    <meta property="og:title" content="Про нас — Агенти змін" />
+    <meta property="og:description" content="" />
+    
+    <meta property="og:url" content="http://a3.kyiv.ua/about" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/i/og-image.jpg" />
+    <meta property="og:image:secure_url" content="assets/og-image.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="shortcut icon" href="/i/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+
+      // https://google,developers.appspot.com/chart/interactive/docs/spreadsheets#gid
+      google.load('visualization', '1', {packages: ['corechart', 'line']});
+      google.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        // Add your sheets url and range below
+        var spreadsheetUrl = "https://docs.google.com/spreadsheets/d/1E4K_sCxSm8WCBVHfEdzTPKOFXRKfJngZjls90FA1Ngo/edit#gid=0?range=A1";
+        var query = new google.visualization.Query(spreadsheetUrl);
+        query.send(handleQueryResponse);
+      }
+
+      function handleQueryResponse(response) {
+        var dataTable = response.getDataTable();
+        // https://developers.google.com/chart/interactive/docs/reference?hl=en#methods
+        // getValue(rowIndex, columnIndex)
+        document.getElementById("test").innerHTML = dataTable.getValue(0, 0);
+      }
+    </script>
+
+</head>
+
+<body class="mt-0 pt-0">
+
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand no-border" href="/">
+        <img src="https://cdn.a3.kyiv.ua/logo/a3-logo-small-black.svg" width="50" height="50" alt="" /><span class="nav-logo-text">Агенти змін</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" href="/products" role="button" aria-expanded="false">Що ми робимо</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" href="/projects" role="button" aria-expanded="false">Проекти</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link no-border img-link" href="/about" role="button" aria-expanded="false">Про нас</a>
+              </li>
+              
+              <li class="nav-item anchor-nav">
+                <div class="">Краудфандинг</div>
+              </li>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" target="_blank" href="http://blog.a3.kyiv.ua" role="button" aria-expanded="false">Блог <svg width="9px" height="8px" viewBox="0 0 9 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M4.71971539,2.67826179 L2.86363636,1.80481283 L7.9171123,0 L9,4.69251337 L7.32095823,3.90237607 C5.28046747,6.49236995 2.17536973,7.36363636 0,7.36363636 C2.55148779,5.78322764 4.12472625,4.22143611 4.71971539,2.67826179 Z" id="Combined-Shape" fill="#3C3C3B"></path></g></svg></a>
+              </li>
+          </ul>
+          <ul class="navbar-nav  d-flex flex-row-  social_items">
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" href="https://facebook.com/agentyzmin"> <img src="/i/social_fb.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://twitter.com/agentyzmin"> <img src="/i/social_tw.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://instagram.com/agentyzmin"> <img src="/i/social_inst.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://t.me/agentyzmin"> <img src="/i/social_telegram.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://www.youtube.com/channel/UCo99u1nJ7hkVvuWcGbL-pGQ"> <img src="/i/social_yt.svg"></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+</div>
+
+  
+<div class="container">
+  
+  <div class="row">
+    <div class="col-12"><h1 class="mt-5">Збираємо кошти на&nbsp;втілення проектів</h1></div>
+    <div class="col-12 col-lg-9 lead mb-3">
+      <p>
+      Не&nbsp;кожен з&nbsp;наших проектів знаходить замовника з&nbsp;тих чи&nbsp;інших причин: не&nbsp;виділено бюджету, бізнес не&nbsp;зацікавлений чи&nbsp;просто не&nbsp;на&nbsp;часі. Тому ви&nbsp;самі можете стати замовником змін в&nbsp;Києві. Починаючи з&nbsp;2018 року всі зібрані кошти ітимуть на&nbsp;втілення конкретних проектів.</p> 
+
+
+      <h4 class="pt-3 pb-3">Проекти, які чекають на&nbsp;втілення:</h4>
+    </div> 
+  </div>
+
+<div class="container">
+  <div class="row mb-5 bg-light" style="min-height: 500px;">
+    <div class="col-12 col-lg-3 fill" style="background-image: url('assets/1-1.png'); background-position: top; min-height: 300px;"> </div>
+    <div class="col-12 col-lg-5 mt-4 pb-4" style="padding-right: 40px; padding-left: 40px">
+      <h2>Встановлення паркової навігації на&nbsp;Львівській площі</h2>
+      <p>
+      Створення навігації на&nbsp;Львівській площі&nbsp;&mdash; була частиною проекту з&nbsp;реконструкції скверу. Але так і&nbsp;не&nbsp;знайшла фінансування. Ми&nbsp;сподіваємося, що&nbsp;навігація для скверу на&nbsp;Львівській площі може стати першим кейсом, як&nbsp;мінімум, у&nbsp;створенні єдиної системи паркової навігації.</p> 
+      <a href="/projects/lvivska-ploscha" >
+      Більше про проект</a>
+    </div>
+    <div class="col-12 col-lg-4 mb-2 mt-5" style="padding-left: 40px;">
+      <div class="row pl-3 pr-3 pl-0">
+        <div class="col-4 col-lg-5 pl-0">
+            <p class="mb-1">Зібрано, ₴</p>
+            
+            <h3 style="margin-top: 0px" id="test"><span style="color: #ddd; font-size: 16px;">Зачекайте</span></h3>
+        </div>
+        <div class="col-4 col-lg-5 pl-0">
+            <p class="mb-1">Потрібно, ₴</p>
+            <h3 style="margin-top: 0px">85 000</h3>
+        </div>
+      </div>
+      <div class="col-12 col-lg-12 pl-0">
+        <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCd0LDQtNCw0L3QvdGPINCx0LXQt9C%2F0L7QstC%2B0YDQvtGC0L3QvtGXINGE0ZbQvdCw0L3RgdC%2B0LLQvtGXINC00L7Qv9C%2B0LzQvtCz0LgiLCJ0eXBlIjoiZG9uYXRlIiwic2VydmVyX3VybCI6Imh0dHA6Ly9hMy5reWl2LnVhL3RoYW5rcyIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=us9yPYrMUcSmxBSZbKP0LqYvcM8%3D" target="_blank">
+          <button type="button" class="btn btn-primary mt-3" style="width: 220px">Підтримати проект</button></a>
+      </div>
+      <div class="col-8 col-lg-10 pl-0">
+        <p class="caption">Ви можете зробити безпечний платіж через LiqPay карткою будь-якого банку, або через Privat24. Сума за вашим вибором.</p> 
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="row pb-5">
+    <div class="col-12 col-lg-12 mb-3 pt-5">
+      <div class="col-12 col-lg-8">
+        <div><h4 class="pb-3">Допомога за&nbsp;підпискою:</h4></div>
+        <div><p>Обрана вами сума буде автоматично списуватись з&nbsp;вашої картки (будь-якого банку) щомісяця. Ми&nbsp;зараховуватимемо ці&nbsp;кошти на&nbsp;проект найближчий до&nbsp;втілення.</p></div>
+      </div>
+      <div class="row pb-4 pt-1 pl-3">
+        <div class="col-6 col-lg-2 pt-3 pt-lg-0">
+          <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiNTAiLCJjdXJyZW5jeSI6IlVBSCIsImRlc2NyaXB0aW9uIjoi0J3QsNC00LDQvdC90Y8g0LHQtdC30L%2FQvtCy0L7RgNC%2B0YLQvdC%2B0Zcg0YTRltC90LDQvdGB0L7QstC%2B0Zcg0LTQvtC%2F0L7QvNC%2B0LPQuCIsInR5cGUiOiJidXkiLCJzZXJ2ZXJfdXJsIjoiaHR0cDovL2EzLmt5aXYudWEiLCJsYW5ndWFnZSI6InJ1Iiwic3Vic2NyaWJlIjoxLCJzdWJzY3JpYmVfZGF0ZV9zdGFydCI6Im5vdyIsInN1YnNjcmliZV9wZXJpb2RpY2l0eSI6Im1vbnRoIn0%3D&signature=7yKSmosfOSkNwmnXN%2FAB2cxQ1ok%3D" target="_blank" style="border-bottom: none ">
+          <button type="button" class="btn btn-outline-primary w-100" style="padding: 10px 30px 10px 30px">50₴/міс.</button></a>
+        </div>
+        <div class="col-6 col-lg-2 pt-3 pt-lg-0">
+          <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCd0LDQtNCw0L3QvdGPINCx0LXQt9C%2F0L7QstC%2B0YDQvtGC0L3QvtGXINGE0ZbQvdCw0L3RgdC%2B0LLQvtGXINC00L7Qv9C%2B0LzQvtCz0LgiLCJ0eXBlIjoiYnV5Iiwic2VydmVyX3VybCI6Imh0dHA6Ly9hMy5reWl2LnVhIiwibGFuZ3VhZ2UiOiJydSIsInN1YnNjcmliZSI6MSwic3Vic2NyaWJlX2RhdGVfc3RhcnQiOiJub3ciLCJzdWJzY3JpYmVfcGVyaW9kaWNpdHkiOiJtb250aCJ9&signature=IIlcci%2BTN8DTM4V3dy4MafWTcRw%3D" target="_blank" style="border-bottom: none ">
+          <button type="button" class="btn btn-outline-primary  w-100" style="padding: 10px 30px 10px 30px">100₴/міс.</button></a>
+        </div>
+        <div class="col-6 col-lg-2 pt-3 pt-lg-0">
+          <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiMjUwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCd0LDQtNCw0L3QvdGPINCx0LXQt9C%2F0L7QstC%2B0YDQvtGC0L3QvtGXINGE0ZbQvdCw0L3RgdC%2B0LLQvtGXINC00L7Qv9C%2B0LzQvtCz0LgiLCJ0eXBlIjoiYnV5Iiwic2VydmVyX3VybCI6Imh0dHA6Ly9hMy5reWl2LnVhIiwibGFuZ3VhZ2UiOiJydSIsInN1YnNjcmliZSI6MSwic3Vic2NyaWJlX2RhdGVfc3RhcnQiOiJub3ciLCJzdWJzY3JpYmVfcGVyaW9kaWNpdHkiOiJtb250aCJ9&signature=A6oX%2FjuoGukyJ2H1WWCdaDY6dKU%3D" target="_blank" style="border-bottom: none ">
+          <button type="button" class="btn btn-outline-primary w-100" style="padding: 10px 30px 10px 30px">250₴/міс.</button></a>
+        </div>
+        <div class="col-6 col-lg-2 pt-3 pt-lg-0">
+          <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiNTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCd0LDQtNCw0L3QvdGPINCx0LXQt9C%2F0L7QstC%2B0YDQvtGC0L3QvtGXINGE0ZbQvdCw0L3RgdC%2B0LLQvtGXINC00L7Qv9C%2B0LzQvtCz0LgiLCJ0eXBlIjoiYnV5Iiwic2VydmVyX3VybCI6Imh0dHA6Ly9hMy5reWl2LnVhIiwibGFuZ3VhZ2UiOiJydSIsInN1YnNjcmliZSI6MSwic3Vic2NyaWJlX2RhdGVfc3RhcnQiOiJub3ciLCJzdWJzY3JpYmVfcGVyaW9kaWNpdHkiOiJtb250aCJ9&signature=eg2Q67aiBqA6FzIExe6r3pYCoxk%3D" target="_blank" style="border-bottom: none ">
+          <button type="button" class="btn btn-outline-primary w-100" style="padding: 10px 30px 10px 30px">500₴/міс.</button></a>
+        </div>
+        <div class="col-6 col-lg-2 pt-3 pt-lg-0">
+          <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJzdWJzY3JpYmUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiMTAwMCIsImN1cnJlbmN5IjoiVUFIIiwiZGVzY3JpcHRpb24iOiLQndCw0LTQsNC90L3RjyDQsdC10LfQv9C%2B0LLQvtGA0L7RgtC90L7RlyDRhNGW0L3QsNC90YHQvtCy0L7RlyDQtNC%2B0L%2FQvtC80L7Qs9C4IiwidHlwZSI6ImJ1eSIsInNlcnZlcl91cmwiOiJodHRwOi8vYTMua3lpdi51YSIsImxhbmd1YWdlIjoicnUiLCJzdWJzY3JpYmUiOjEsInN1YnNjcmliZV9kYXRlX3N0YXJ0Ijoibm93Iiwic3Vic2NyaWJlX3BlcmlvZGljaXR5IjoibW9udGgifQ%3D%3D&signature=AhoiVPOk91TdySuZL%2Fyo2joRJWo%3D" target="_blank" style="border-bottom: none ">
+          <button type="button" class="btn btn-outline-primary w-100" style="padding: 10px 30px 10px 30px">1000₴/міс.</button></a>
+        </div>
+      </div>
+      <div class="col-12 col-lg-8">
+      <p>
+      Ви&nbsp;зможете скасувати підписку у&nbsp;будь-який момент: надішліть ваші номер телефону та&nbsp;дату підписки на&nbsp;адресу <a href="mailto:unsubscribe@a3.kyiv.ua" target="_top">unsubscribe@a3.kyiv.ua</a> або у повідомленнях на фейсбуці.</p> 
+      </div>
+      
+    </div> 
+  </div>
+
+
+</div>
+
+  
+
+
+
+
+<footer class="footer">
+  <div class="container">
+  <span>2014 — 2018 © Агенти змін</span>
+  <span style="margin-left: 5px;">
+    <a class="mx-2 text-link" href="/products">Що ми робимо</a>
+    <a class="mx-2 text-link" href="/projects">Проекти</a>
+    <a class="mx-2 text-link" href="/about">Про нас</a>
+    <a class="mx-2 text-link" href="http://blog.a3.kyiv.ua" target="_blank">Блог</a>
+  </span>
+  </div>
+</footer>
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- Retina js -->
+    <script type="text/javascript" src="/js/retina.min.js"></script> 
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71269206-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-71269206-1');
+</script>
+</body>
+</html>

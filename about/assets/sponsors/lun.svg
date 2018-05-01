@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="31" viewBox="0 0 100 31">
+  <defs>
+    <rect id="logo-a" width="26" height="26"/>
+    <linearGradient id="logo-c" x1="82.975%" x2="76.225%" y1="82.387%" y2="109.248%">
+      <stop offset="0%" stop-color="#FFB401" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFB401"/>
+    </linearGradient>
+    <linearGradient id="logo-d" x1="115.998%" x2="44.044%" y1="40.878%" y2="55.397%">
+      <stop offset="0%" stop-color="#FF7001"/>
+      <stop offset="100%" stop-color="#FF7001" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="logo-e" x1="79.681%" x2="54.918%" y1="53.905%" y2="100%">
+      <stop offset="0%" stop-color="#FFB301" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#FFB301"/>
+    </linearGradient>
+    <linearGradient id="logo-f" x1="83.011%" x2="50%" y1="-26.551%" y2="37.479%">
+      <stop offset="0%" stop-color="#FF7001"/>
+      <stop offset="100%" stop-color="#FF7001" stop-opacity="0"/>
+    </linearGradient>
+    <rect id="logo-b" width="26" height="26"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <g fill="#161616" fill-rule="nonzero" transform="translate(37 4)">
+      <path d="M4 11.3754735C4 12.7891414 2.71859217 14 1.34117214 14L0 14 0 18 1.34117214 18C5.07470539 18 8 15.1090067 8 11.3754735L8 4.02351641 15 4.02351641 15 18 19 18 19 0 4 0 4 11.3754735zM37 3L37 9.9959596C37 12.840404 35.1434343 15.1353535 32.2989899 15.1353535L32.1050505 15.1353535C29.2606061 15.1353535 26.9656566 13.1636364 26.9656566 9.9959596L26.9656566 0 23 0 23 9.9959596C23 16 27.3212121 18.6262626 32.1050505 18.6262626L32.2989899 18.6262626C34.4323232 18.6262626 36.3393939 17.7535354 37.4383838 16.4606061L37.4383838 18.2060606C37.4383838 21.9878788 34.7878788 23.3454545 32.2989899 23.3454545L32.1050505 23.3454545C29.9717172 23.3454545 27.7757576 21.8747475 27 20L23.6707071 21.2282828C24.9313131 24.4282828 28.4525253 26.8363636 32.0727273 26.8363636L32.2666667 26.8363636C37.3737374 26.8363636 40.9292929 23.2808081 40.9292929 18.2060606L41 9.9959596 40.9292929 5.79393939 41 0 37 0 37 3z"/>
+      <polygon points="59 0 59 7 49 7 49 0 45 0 45 18 49 18 49 11 59 11 59 18 63 18 63 0"/>
+    </g>
+    <use fill="#FF9501" xlink:href="#logo-b"/>
+    <use fill="url(#logo-c)" xlink:href="#logo-b"/>
+    <use fill="url(#logo-d)" xlink:href="#logo-b"/>
+    <use fill="url(#logo-e)" xlink:href="#logo-b"/>
+    <use fill="url(#logo-f)" xlink:href="#logo-b"/>
+  </g>
+</svg>

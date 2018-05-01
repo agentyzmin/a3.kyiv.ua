@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="20px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>social_yt</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="social_yt">
+            <g transform="translate(4.000000, 3.000000)">
+                <path d="M19.5820455,2.18614516 C19.3520455,1.32559677 18.6744318,0.647951613 17.8138636,0.417967742 C16.2542045,0 10,0 10,0 C10,0 3.74579545,0 2.18613636,0.417967742 C1.32568182,0.647951613 0.647954545,1.32559677 0.417954545,2.18614516 C0,3.74579032 0,7 0,7 C0,7 0,10.2540968 0.417954545,11.8139677 C0.647954545,12.6744032 1.32568182,13.3520484 2.18613636,13.5821452 C3.74579545,14 10,14 10,14 C10,14 16.2542045,14 17.8138636,13.5821452 C18.6744318,13.3520484 19.3520455,12.6744032 19.5820455,11.8139677 C20,10.2540968 20,7 20,7 C20,7 20,3.74579032 19.5820455,2.18614516" id="Fill-1" fill="#000000"></path>
+                <polygon id="Fill-4" fill="#FFFFFE" points="13 7 8 4 8 10"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
