@@ -947,6 +947,29 @@ li.credits-header{
 }
 
 
+
+
+ul {
+  margin-bottom: 12px;
+}
+
+li {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+
+div.credits, ul.credits, li.credits {
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
 /*WIDE DESKTOP*/
 @media (min-width: 1200px){
 
@@ -1065,6 +1088,12 @@ p {
   font-size: 18px;
 }
 
+.credits {
+  font-size: 14px;
+}
+
+
+
 }
 
 
@@ -1072,14 +1101,7 @@ p {
 
 
 
-ul {
-  margin-bottom: 12px;
-}
 
-li {
-  font-size: 18px;
-  margin-bottom: 12px;
-}
 
 
 .manifest-numtext{
@@ -1409,18 +1431,30 @@ h4.quote{
 }
 
 
+
+
+ul.credits > li {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 7px;
+}
+
+
+
+
 /*Likely styles*/
 
 .likely .likely__widget {
-    background: none;
+    /*background: none;*/
     font-family: 'proba_nav2';
+    font-size: 15px;
 }
 .likely .likely__button {
-    padding: 3px 4px 1px 2px;
+    padding: 2px 4px 1px 2px;
 }
 
 .likely .likely__counter {
-    padding: 3px 4px;
+    padding: 2px 4px;
 }
 
 .font-16{
@@ -1442,4 +1476,6 @@ h4.quote{
     width: 100%;
     height: 100%;
 }
+
+
 
