@@ -16,4 +16,4 @@ Redirect /works /projects
 Redirect /old https://readymag.com/igor/a3
 
 
-ErrorDocument 404 /404
+ErrorDocument 404 /404/index.html
