@@ -1,0 +1,19 @@
+# This allows you to redirect index.html to a specific subfolder
+Redirect /card /projects/metrocard
+Redirect /metromap /projects/metromap
+Redirect /metro /projects/metro-wayfinding
+Redirect /street-signs /projects/street-signs
+Redirect /lvivska-ploscha /projects/lvivska-ploscha
+Redirect /transitmap /projects/metromap
+Redirect /funicular /projects/funicular
+Redirect /urbanrail /projects/intercity
+Redirect /mastercard-metro /projects/mastercard-metro
+Redirect /kmr /projects/kmr
+Redirect /bike /projects/bike-wayfinding-truhaniv
+Redirect /projects/bike-truhaniv /projects/bike-wayfinding-truhaniv
+Redirect /works /projects
+
+Redirect /old https://readymag.com/igor/a3
+
+
+ErrorDocument 404 /404
