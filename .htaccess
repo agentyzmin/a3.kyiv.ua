@@ -17,6 +17,7 @@ Redirect /wayfinding /products/wayfinding/
 Redirect /design-code /products/design-codes/
 Redirect /design-codes /products/design-codes/
 Redirect /public-space /products/public-spaces/
+Redirect /public-spaces /products/public-spaces/
 
 
 Redirect /old https://readymag.com/igor/a3
