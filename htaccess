@@ -13,6 +13,12 @@ Redirect /bike /projects/bike-wayfinding-truhaniv
 Redirect /projects/bike-truhaniv /projects/bike-wayfinding-truhaniv
 Redirect /works /projects
 
+Redirect /wayfinding /products/wayfinding/
+Redirect /design-code /products/design-codes/
+Redirect /design-codes /products/design-codes/
+Redirect /public-space /products/public-spaces/
+
+
 Redirect /old https://readymag.com/igor/a3
 
 
