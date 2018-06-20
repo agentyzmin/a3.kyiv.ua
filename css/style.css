@@ -964,9 +964,9 @@ div.credits, ul.credits, li.credits {
 }
 
 
-
-
-
+.doc-shadow {
+  box-shadow: 0 15px 20px 0 rgba(0,54,91,0.10);
+}
 
 
 
