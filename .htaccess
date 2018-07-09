@@ -2,7 +2,11 @@
 Redirect /card /projects/metrocard
 Redirect /metromap /projects/metromap
 Redirect /metro /projects/metro-wayfinding
+
 Redirect /street-signs /projects/street-signs
+Redirect /street-sign /projects/street-signs
+Redirect /projects/street-sign /projects/street-signs
+
 Redirect /lvivska-ploscha /projects/lvivska-ploscha
 Redirect /transitmap /projects/metromap
 Redirect /funicular /projects/funicular
