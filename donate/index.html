@@ -44,7 +44,7 @@
         var dataTable = response.getDataTable();
         // https://developers.google.com/chart/interactive/docs/reference?hl=en#methods
         // getValue(rowIndex, columnIndex)
-        document.getElementById("test").innerHTML = dataTable.getValue(0, 0);
+        document.getElementById("test").innerHTML = dataTable.getValue(0, 0) + " ₴";
       }
     </script>
 
@@ -113,6 +113,12 @@
 
 
       <h4 class="pt-3 pb-3">Проекти, які чекають на&nbsp;втілення:</h4>
+    </div>
+    <div class="col-12 col-lg-3">
+      На рахунку:
+      <h3 style="margin-top: 0px" id="test"><span style="color: #ddd; font-size: 16px;">Зачекайте</span></h3>
+        </div>
+        <div class="col-4 col-lg-5 pl-0">
     </div> 
   </div>
 
@@ -129,7 +135,7 @@
     <div class="col-12 col-lg-4 mb-2 mt-5" style="padding-left: 40px;">
       <div class="row pl-3 pr-3 pl-0">
         <div class="col-12 pl-0">
-          <p><strong>Вже у виробництві</strong></p>
+          <p><strong>Вже виготовляється</strong></p>
         </div>
         <!-- <div class="col-4 col-lg-5 pl-0">
             <p class="mb-1">Зібрано, ₴</p>
@@ -141,23 +147,43 @@
             <p class="mb-1">Потрібно, ₴</p>
             <h3 style="margin-top: 0px">101000</h3>
         </div> -->
-        <div class="col-12 pl-0">UPD: Зібрали необхідну суму, всім дякуємо! Зараз узгоджуємо встановлення&nbsp;і, як&nbsp;отримаємо дозвіл, одразу&nbsp;ж будемо виготовляти. Надлишок коштів піде на&nbsp;наступний проект, анонсуємо вже скоро.</div>
+        <div class="col-12 pl-0">UPD: Зібрали необхідну суму, всім дякуємо! Зараз узгоджуємо встановлення&nbsp;і, як&nbsp;отримаємо дозвіл, одразу&nbsp;ж будемо виготовляти. Надлишок коштів піде на&nbsp;наступний проект.</div>
       </div>
-      <div class="col-12 col-lg-12 pl-0">
+      <!-- <div class="col-12 col-lg-12 pl-0">
         <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCd0LDQtNCw0L3QvdGPINCx0LXQt9C%2F0L7QstC%2B0YDQvtGC0L3QvtGXINGE0ZbQvdCw0L3RgdC%2B0LLQvtGXINC00L7Qv9C%2B0LzQvtCz0LgiLCJ0eXBlIjoiZG9uYXRlIiwic2VydmVyX3VybCI6Imh0dHA6Ly9hMy5reWl2LnVhL3RoYW5rcyIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=us9yPYrMUcSmxBSZbKP0LqYvcM8%3D" target="_blank">
           <button type="button" class="btn btn-primary mt-3" style="width: 220px">Підтримати проект</button></a>
       </div>
       <div class="col-8 col-lg-10 pl-0">
         <p class="caption">Ви можете зробити безпечний платіж через LiqPay карткою будь-якого банку, або через Privat24. Сума за вашим вибором.</p> 
-      </div>
+      </div> -->
     </div>
   </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12 col-lg-12 mb-3 pt-5">
+      <div class="col-12 col-lg-8">
+        <div><h4 class="pb-2">Підтримати наступний проект</h4></div>
+        <div>
+          <p>
+            Можете перерахувати будь-яку суму на&nbsp;ваш розсуд. Нові проекти анонсуємо вже скоро, є кілька цікавих ідей.
+          </p>
+        </div>
+        <div class="">
+        <a href="https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCd0LDQtNCw0L3QvdGPINCx0LXQt9C%2F0L7QstC%2B0YDQvtGC0L3QvtGXINGE0ZbQvdCw0L3RgdC%2B0LLQvtGXINC00L7Qv9C%2B0LzQvtCz0LgiLCJ0eXBlIjoiZG9uYXRlIiwic2VydmVyX3VybCI6Imh0dHA6Ly9hMy5reWl2LnVhL3RoYW5rcyIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=us9yPYrMUcSmxBSZbKP0LqYvcM8%3D" target="_blank">
+          <button type="button" class="btn btn-primary " style="padding: 10px 30px 10px 30px">Підтримати</button></a>
+      </div>
+      <div class="col-6 pl-0">
+        <p class="caption">Ви можете зробити безпечний платіж через LiqPay карткою будь-якого банку, або через Privat24. <!-- Сума за вашим вибором. --></p>
+      </div>
+      </div>
+    </div>
   </div>
 
   <div class="row pb-5">
     <div class="col-12 col-lg-12 mb-3 pt-5">
       <div class="col-12 col-lg-8">
-        <div><h4 class="pb-3">Допомога за&nbsp;підпискою:</h4></div>
+        <div><h4 class="pb-3">Допомога за&nbsp;підпискою</h4></div>
         <div><p>Обрана вами сума буде автоматично списуватись з&nbsp;вашої картки (будь-якого банку) щомісяця. Ми&nbsp;зараховуватимемо ці&nbsp;кошти на&nbsp;проект найближчий до&nbsp;втілення.</p></div>
       </div>
       <div class="row pb-4 pt-1 pl-3">
