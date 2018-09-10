@@ -157,6 +157,11 @@ p.text{
     height: 280px; */
 }
 
+.allcaps{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 
 .project-caption{
     top: 0;
