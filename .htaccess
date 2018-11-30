@@ -17,6 +17,12 @@ Redirect /bike /projects/bike-wayfinding-truhaniv
 Redirect /projects/bike-truhaniv /projects/bike-wayfinding-truhaniv
 Redirect /works /projects
 
+Redirect /kolo /projects/kolo-podolu
+Redirect /kolo-podolu /projects/kolo-podolu
+Redirect /kontraktova-research /projects/kontraktova-research
+
+
+
 Redirect /wayfinding /products/wayfinding/
 Redirect /design-code /products/design-codes/
 Redirect /design-codes /products/design-codes/
