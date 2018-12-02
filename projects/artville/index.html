@@ -264,8 +264,9 @@ var controller = new ScrollMagic.Controller();
       })
       .setPin("#animate2")
       .setTween(TweenMax.to("#animate2", 3, {x:1300, y:-800}))
-              .addIndicators({name: "2"})
-              // .addTo(controller);
+              // .addIndicators({name: "2"})
+              .addTo(controller)
+              ;
               var triggerHook = scene.triggerHook(0.2);
 </script>
 
