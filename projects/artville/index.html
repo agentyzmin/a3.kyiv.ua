@@ -261,16 +261,20 @@
 
 <style type="text/css">
 
+#animate2 {
+  /*left:-1400px;*/
+  position: absolute;
+  right: 0;
+}
+
 /*WIDE DESKTOP*/
 @media (min-width: 1000px){
 .axonometry {
   width: 2725px;
 }
-#animate2 {
-  left:-1400px;
-}
+
 .axonometry-block {
-  height: 3440px;
+  height: 1800px;
 }
 }
 
@@ -279,11 +283,11 @@
 .axonometry {
   width: 1200px;
 }
-#animate2 {
+/*#animate2 {
   left:-800px;
-}
+}*/
 .axonometry-block {
-  height: 1000px;
+  height: 800px;
 }
 }
 
@@ -302,13 +306,15 @@
 // init controller
 var width = screen.width;
 if (width < 1000) {
-    var dur = 700;
+    var dur = 500;
     var coord_x = 700;
-    var coord_y = -500;
+    // var coord_y = -500;
+    var coord_y = 0;
 } else { 
-    var dur = 2400;
-    var coord_x = 1300;
-    var coord_y = -800;
+    var dur = 1000;
+    var coord_x = 1200;
+    // var coord_y = -800;
+    var coord_y = 0;
 }
 
 
@@ -318,7 +324,7 @@ var controller = new ScrollMagic.Controller();
         triggerElement: "#trigger2", 
         duration: dur
       })
-      .setPin("#animate2")
+      // .setPin("#animate2")
       .setTween(TweenMax.to("#animate2", 3, {x:coord_x, y:coord_y}))
               // .addIndicators({name: "2"})
               .addTo(controller)
