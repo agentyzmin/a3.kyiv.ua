@@ -12,7 +12,7 @@
     <meta property="og:title" content="Подвір’я Артвілю — Агенти змін" />
     <meta property="og:description" content="Концепція публічного простору у подвір’ї" />
 
-    <meta property="og:url" content="http://a3.kyiv.ua/projects/artville" />
+    <meta property="og:url" content="http://a3.kyiv.ua/projects/artville/" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/cover.jpg" />
     <meta property="og:image:secure_url" content="assets/cover.jpg" />
@@ -144,10 +144,10 @@
     <p>Житловий комплекс &laquo;Артвілль&raquo; будується посеред поля за&nbsp;межами Одеси. Щоб визначити проблеми, які можуть спіткати тих, хто житиме в&nbsp;ньому, ми&nbsp;опитали мешканців вже збудованого комплексу &laquo;7&nbsp;небо&raquo;. Дізналися, що&nbsp;основною проблемою є&nbsp;нестача публічних активностей та&nbsp;конфлікти, які виникають між мешканцями через&nbsp;те, що&nbsp;їм&nbsp;не&nbsp;вистачає публічних просторів, де&nbsp;вони могли&nbsp;б проводити вільний час.</p>
   </div>
   <div class="col-lg-3 col-12">
-    <a href="http://cdn.a3.kyiv.ua/files/artville_research_report_8.18.pdf">
+    <a href="http://cdn.a3.kyiv.ua/files/artville_research_report_8.18.pdf" target="_blank">
       <img class="doc-shadow mb-2" width="200" src="assets/artville-research.png" alt="Artville. Дослідження середовища">
     </a>
-    <a href="http://cdn.a3.kyiv.ua/files/artville_research_report_8.18.pdf">Дослідження</a><br/>PDF, 38 стр.
+    <a href="http://cdn.a3.kyiv.ua/files/artville_research_report_8.18.pdf" target="_blank"><br/>Дослідження</a><br/>PDF, 27 МБ
   </div>
 </div>
 <div class="col-12 pl-0 mt-5">
@@ -246,24 +246,67 @@
 <!-- PANORAMA -->
 
 
-<div class="container-fluid mt-5" style="height: 3440px;">
+<style type="text/css">
+
+/*WIDE DESKTOP*/
+@media (min-width: 1000px){
+.axonometry {
+  width: 2725px;
+}
+#animate2 {
+  left:-1400px;
+}
+.axonometry-block {
+  height: 3440px;
+}
+}
+
+/*mobile*/
+@media (max-width: 1000px){
+.axonometry {
+  width: 1200px;
+}
+#animate2 {
+  left:-800px;
+}
+.axonometry-block {
+  height: 1000px;
+}
+}
+
+</style>
+
+<div class="container-fluid mt-5 axonometry-block">
     <div id="trigger2"></div>
-    <div id="animate2" style="left:-1400px;">
-      <img width="2725" src="assets/artville-details-2.jpg">
+    <div id="animate2">
+      <img class="axonometry" src="assets/artville-details-2.jpg">
     </div>
 </div>
 
 
+
 <script type="text/javascript">
 // init controller
+var width = screen.width;
+if (width < 1000) {
+    var dur = 700;
+    var coord_x = 700;
+    var coord_y = -500;
+} else { 
+    var dur = 2400;
+    var coord_x = 1300;
+    var coord_y = -800;
+}
+
+
 var controller = new ScrollMagic.Controller();
 // build scene
       var scene = new ScrollMagic.Scene({
         triggerElement: "#trigger2", 
-        duration: 2400
+        duration: dur
       })
       .setPin("#animate2")
-      .setTween(TweenMax.to("#animate2", 3, {x:1300, y:-800}))
+      .setTween(TweenMax.to("#animate2", 3, {x:coord_x, y:coord_y}))
               // .addIndicators({name: "2"})
               .addTo(controller)
               ;
@@ -279,7 +322,6 @@ var controller = new ScrollMagic.Controller();
 
 <img class="w-100 mb-2" src="assets/artville-visual-1.jpg" />
 <img class="w-100 mb-2" src="assets/artville-visual-2.jpg" />
-<img class="w-100 mb-2" src="assets/artville-visual-3.jpg" />
 
 </div>
 
