@@ -3,6 +3,8 @@ host: mapazmin.ftp.tools
 username: mapazmin_a3
 password: f5gx4y04
 
+passive: true
+
 exclude:
     - .gitignore
     - dandelion.yml
