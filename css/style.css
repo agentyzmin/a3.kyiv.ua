@@ -974,6 +974,12 @@ div.credits, ul.credits, li.credits {
 }
 
 
+.yt {
+  width: 100%;
+  height: 600px;
+}
+
+
 
 /*WIDE DESKTOP*/
 @media (min-width: 1200px){
@@ -1266,6 +1272,9 @@ li {
   min-height: 90vh;
 }
 
+
+
+
 }
 
 
@@ -1337,6 +1346,8 @@ p {
 }
 
 }
+
+
 
 
 /*MOBILE*/
@@ -1464,6 +1475,11 @@ ul,li {
 .caption{
   font-size: 15px;
 }
+
+.yt {
+  height: 200px;
+}
+
 
 }
 
