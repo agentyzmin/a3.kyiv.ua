@@ -32,6 +32,10 @@ Redirect /public-spaces /products/public-spaces/
 
 Redirect /naberezhna-report.pdf http://cdn.a3.kyiv.ua/files/Звіт%20з%20просторових%20досліджень%20Подільської%20набережної%20(Агенти%20змін).pdf
 
+# Redirect HTTPS to HTTP
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteRule ^(.*)$ http://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 
 Redirect /old https://readymag.com/igor/a3
 
