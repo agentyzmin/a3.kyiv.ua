@@ -30,6 +30,9 @@ Redirect /public-space /products/public-spaces/
 Redirect /public-spaces /products/public-spaces/
 
 
+Redirect /naberezhna-report.pdf http://cdn.a3.kyiv.ua/files/Звіт%20з%20просторових%20досліджень%20Подільської%20набережної%20(Агенти%20змін).pdf
+
+
 Redirect /old https://readymag.com/igor/a3
 
 
