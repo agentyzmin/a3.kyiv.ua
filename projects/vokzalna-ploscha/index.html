@@ -573,18 +573,12 @@
 
 
 
-<script>
-function {
-  var d = new Date();
-  var n = d.getFullYear();
-  document.getElementById("since").innerHTML = "2014 — "+n+" © Агенти змін";
-}
-</script>
+
 
 
 <footer class="footer">
   <div class="container">
-  <span id="since">2014 —  © Агенти змін</span>
+  <span id="since">2014 — <span id="get-full-year">…</span> © Агенти змін</span>
   <span style="margin-left: 25px;">
     <a class="mr-3 text-link" href="/products">Що ми робимо</a>
     <a class="mr-3 text-link" href="/projects">Проекти</a>
@@ -613,6 +607,8 @@ function {
     <!-- Likely -->
     <script src="/js/likely.js"></script>
 
+
+    <script src="/js/get-full-year.js"></script>
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
