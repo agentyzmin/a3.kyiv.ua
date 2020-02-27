@@ -3,3 +3,5 @@ Icon^M^M
 dandelion.yml
 node_modules
 package-lock.json
+bs-config.js
+gulpfile.js
