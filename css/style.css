@@ -1506,6 +1506,29 @@ ul.credits > li {
 
 
 
+
+
+
+.icon-M {
+  height: 1.35em;
+  width: 1.35em;
+  display: inline-block;
+  margin:-0.25em 0 0 0;
+}
+
+.icon-exit {
+  background-color: #F7C73F;
+  border-radius: 0.15em;
+  font-weight: 900;
+  color: #000;
+  text-align: center;
+  padding: 0.2em 0.35em 0.05em 0.35em;
+
+}
+
+
+
+
 /*Likely styles*/
 
 .likely .likely__widget {
