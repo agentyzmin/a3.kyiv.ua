@@ -25,10 +25,13 @@ var gulp = require('gulp'),
   
 gulp.task('browser-sync', function () {
   var files = [
-    '**/*',
-    // 'css/**/*.css',
-    // 'i**/*.png',
-    // '**/assets/*'
+    // '**/*',
+    'projects/**',
+    'css/**/*.css',
+    'i**/*.png',
+    'js/**',
+    '*.html',
+    '!node_modules/**'
   ];
   
   browserSync.init(files, {
@@ -37,4 +40,6 @@ gulp.task('browser-sync', function () {
     }
   });
 });
+
+
 
