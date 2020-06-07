@@ -504,8 +504,8 @@ dl.codebox dt {
 
 
     <div class="col-lg-8 col-12">
-      <p>Новий шрифт&nbsp;&mdash; <strong>Road UA</strong>&nbsp;&mdash; напрацювання українського шрифтаря Андрія Константінова, засновника шрифтової студії <a href="http://minttype.com">minttype.com</a>.</p>
-      <p>Road UA&nbsp;створювався як&nbsp;сучасний європейський шрифт, заснований на&nbsp;перевірених дослідженнями шрифтах&nbsp;&mdash; британському Transport та&nbsp;німецькому DIN, але із&nbsp;уклоном в&nbsp;наявний шрифт ГОСТ, щоб кардинально не&nbsp;ламати звичку.</p>
+      <p>Новий шрифт&nbsp;&mdash; <strong>Road UA</strong>&nbsp;&mdash; напрацювання українського шрифтаря Андрія Константинова, засновника шрифтової студії <a href="http://minttype.com">minttype.com</a>.</p>
+      <p>Road UA&nbsp;створювався як&nbsp;сучасний європейський шрифт, заснований на&nbsp;перевірених дослідженнями шрифтах&nbsp;&mdash; британському Transport та&nbsp;німецькому DIN,але із&nbsp;силуетами окремих символів більш подібних до&nbsp;наявного шрифту ГОСТ, щоб кардинально не&nbsp;ламати візуальну звичку.</p>
       <p>Також у&nbsp;шрифту будуть різні накреслення: medium&nbsp;&mdash; для написів на&nbsp;темному тлі і&nbsp;bold&nbsp;&mdash; для написів на&nbsp;світлому, щоб написи на&nbsp;різному тлі оптично виглядали однаковими.</p>
       <p>У&nbsp;новій навігації ми&nbsp;вирішили протестувати, як&nbsp;працюватиме новий шрифт. Про&nbsp;тестування напишемо окремо.</p>
     </div>
@@ -516,15 +516,15 @@ dl.codebox dt {
 
     <div class="col-lg-8 col-12">
 
-<!--       <div class="row">
-        <div class="fotorama" data-allowfullscreen="true" data-ratio="16/9" data-fit="cover" data-nav="thumbs" data-loop="true">
-          <img class="" src="assets/road-ua-medium.png" alt="">
-          <img class="" src="assets/road-ua-bold.png" alt="">
-        </div>
-      </div> -->
+      <div class="fotorama" data-allowfullscreen="true" data-fit="cover" data-loop="true">
+        <img src="assets/road-ua-medium.png" alt="">
+        <img src="assets/road-ua-bold.png" alt="">
+      </div>
 
-      <img class="w-100" src="assets/road-ua-medium.png">
-      <img class="w-100" src="assets/road-ua-bold.png">
+<!--       
+<img class="w-100" src="assets/road-ua-medium.png">
+<img class="w-100" src="assets/road-ua-bold.png"> 
+-->
       <p class="caption">Road UA Medium та Road UA Bold</p>
     </div>
 
@@ -628,7 +628,7 @@ dl.codebox dt {
       <img height="80" src="assets/icons-railway.png">
       <h5>Динамічні&nbsp;&mdash; для швидшої реакції</h5>
       <p>На&nbsp;піктограми, що&nbsp;відображають рух, водії реагують швидше. Потяг &laquo;рухається на&nbsp;нас&raquo;, а&nbsp;не&nbsp;стоїть на&nbsp;місці</p>
-      <img width="50" src="assets/icons-railway-old.png">
+      <img width="50" class="d-flex" src="assets/icons-railway-old.png">
       <p class="caption">Приклад з ПДР: знак 5.66. Залізничний вокзал</p>
     </div>
     <div class="col-lg-4 col-12">
@@ -666,7 +666,7 @@ dl.codebox dt {
 <div class="container mb-5">
   <div class="row">
     <div class="col-12">
-      <h3>Кольори</h3>
+      <h3>Кольори номерів трас</h3>
     </div>
 
 
@@ -680,9 +680,11 @@ dl.codebox dt {
  -->
 
 
-    <div class="col-12 mt-4">
+<!--     <div class="col-12">
       <h4>Номери трас</h4>
-    </div>
+    </div> -->
+
+
     <div class="col-lg-8 col-12">
     <p>
       Згідно опитуванням багато водіїв орієнтуються саме за&nbsp;номерами трас. Практика кодування кольорами різних трас не&nbsp;нова. Але ми&nbsp;пропонуємо застосовувати колір по&nbsp;пріоритетах доріг:
@@ -1091,16 +1093,16 @@ dl.codebox dt {
   }
 </style>
 
-<table cellpadding="4">
+<table cellpadding="8" style="line-height: 120%;">
   <tr>
     <th valign="top" rowspan="2">Обмеження швидкості</th>
     <th valign="top" colspan="3">Відстань від знаку до точки, м</th>
     <th valign="top" rowspan="2">Відстань між знаками, м</th>
   </tr>  
   <tr>
-    <th width="20%" valign="top"><p class="caption m-0 p-0">Потребує зупинки</p></th>
-    <th width="20%" valign="top"><p class="caption m-0 p-0">Потребує суттєвого зменшення швидкості</p></th>
-    <th width="20%" valign="top"><p class="caption m-0 p-0">Не потребує суттєвого зменшення швидкості</p></th>
+    <th width="20%" valign="top"><p class="caption m-0 p-0" style="line-height: 120%;">Потребує зупинки</p></th>
+    <th width="20%" valign="top"><p class="caption m-0 p-0" style="line-height: 120%;">Потребує суттєвого зменшення швидкості</p></th>
+    <th width="20%" valign="top"><p class="caption m-0 p-0" style="line-height: 120%;">Не потребує суттєвого зменшення швидкості</p></th>
   </tr>   
   <tr>
     <td>50 км/год</td>
@@ -1288,7 +1290,7 @@ dl.codebox dt {
         Водієві завжди потрібно підтвердження, якою трасою він рухається і&nbsp;чи&nbsp;не&nbsp;з&rsquo;їхав не&nbsp;туди. Здається, для цього можна використати кілометрові стовпчики, які і&nbsp;так встановлюються. На&nbsp;них можна додати номер траси. Для заощадження можна встановлювати номер на&nbsp;кожному п&rsquo;ятому стовпчику.
       </p>
 
-      (стовпчик)
+      <img width="200" src="assets/km.png">
     </div>
 
 
@@ -1462,7 +1464,7 @@ dl.codebox dt {
     <div class="col-lg-2 col-12">
       <ul class="credits">
         <li class="credits-header">Шрифт</li>
-        <li>Андрій Константінов <a href="https://minttype.com" target="_blank">minttype.com</a></li>
+        <li>Андрій Константинов <a href="https://minttype.com" target="_blank">minttype.com</a></li>
       </ul>
     </div>
 
@@ -1507,6 +1509,9 @@ dl.codebox dt {
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 
+    <!-- Fotorama gallery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+    <script src="/js/fotorama.js"></script> <!-- 16 KB -->
     
     <!-- Likely -->
     <script src="/js/likely.js"></script>
