@@ -1054,7 +1054,8 @@ div.credits, ul.credits, li.credits {
 
 .disclamer{
   padding: 1.5em 2em; 
-  background-color: #EEEEF2;
+  background-color: #EAEAEE;
+  border-radius: 0.25em;
 }
 
 
