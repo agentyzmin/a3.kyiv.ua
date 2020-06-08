@@ -193,23 +193,29 @@
 
 <div class="row">
   <div class="col-lg-6 col-12">  
-  <form method="post" action="https://mailthis.to/road@a3.kyiv.ua" encType="multipart/form-data">
-    <input type="hidden" name="_subject" value="Contact form submitted">
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Повідомлення</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="6"></textarea>
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlFile1">Прикласти файл</label>
-      <input type="file" class="form-control-file" name="file" id="FormControlFile">
-    </div>
-    <div class="form-group">
-      <label for="exampleFormControlInput1">Електронна пошта для зворотнього зв’язку (за бажанням):</label>
-      <input type="email" class="form-control" id="FormEmailInput" name="_replyto" placeholder="">
-    </div>
 
-    <button type="submit" class="btn btn-primary mb-2">Відправити</button>
-  </form>
+
+    <div class="feedback-form disclamer">
+
+      <form method="post" action="https://mailthis.to/road@a3.kyiv.ua" encType="multipart/form-data">
+        <input type="hidden" name="_subject" value="Contact form submitted">
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Повідомлення</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlFile1">Прикласти файл</label>
+          <input type="file" class="form-control-file" name="file" id="FormControlFile">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Електронна пошта (за бажанням):</label>
+          <input type="email" class="form-control" id="FormEmailInput" name="_replyto" placeholder="">
+        </div>
+        <input type="hidden" name="_honeypot" value="">
+        <button type="submit" class="btn btn-primary mb-2">Надіслати</button>
+      </form>
+    
+    </div>
 
 
   </div>
