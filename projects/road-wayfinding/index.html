@@ -197,24 +197,36 @@
 
     <div class="feedback-form disclamer">
 
-      <form method="post" action="https://mailthis.to/road@a3.kyiv.ua" encType="multipart/form-data">
-        <input type="hidden" name="_subject" value="Contact form submitted">
+<form action="https://mailthis.to/road@a3.kyiv.ua"
+    method="POST" encType="multipart/form-data">
+        
+        <input type="hidden" name="_subject" value="Feedback">
+        
         <div class="form-group">
-          <label for="exampleFormControlTextarea1">Повідомлення</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="3"></textarea>
+          <label for="colFormLabel">Повідомлення</label>
+          <textarea class="form-control" name="message" rows="6"></textarea>
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlFile1">Прикласти файл</label>
-          <input type="file" class="form-control-file" name="file" id="FormControlFile">
+
+        <div class="form-group row">
+          <label for="colFormLabel" class="col-4 col-form-label">Прикласти файл:</label>
+          <input type="file" class="form-control-file col-8" name="file">
         </div>
-        <div class="form-group">
-          <label for="exampleFormControlInput1">Електронна пошта (за бажанням):</label>
-          <input type="email" class="form-control" id="FormEmailInput" name="_replyto" placeholder="">
+
+        <div class="form-group row">
+          <label for="colFormLabel" class="col-4 col-form-label">Пошта:</label>
+          <input type="email" class="form-control col-8" name="_replyto">
         </div>
+
         <input type="hidden" name="_honeypot" value="">
+        
+        <input type="hidden" name="_confirmation" value="Дякуємо за зворотній зв’язок! Слідкуйте за ходом проекту на сайті — a3.kyiv.ua/projects/road-wayfinding , у фейсбуці та телеграмі.">
+        
+        <!-- <input type="hidden" name="_after" value="http://a3.kyiv.ua/projects/road-wayfinding"> -->
         <button type="submit" class="btn btn-primary mb-2">Надіслати</button>
+
+
       </form>
-    
+
     </div>
 
 
