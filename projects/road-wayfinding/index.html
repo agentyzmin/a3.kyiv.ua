@@ -91,6 +91,27 @@
 <div class="container-fluid project-background-fluid fill" style="background-image: url('assets/cover-main.jpg');"></div>
 
 
+<style type="text/css">
+  .feedback-button {
+    position: fixed;
+    background-color: #32DC77;
+    width: 50px;
+    height: 50px;
+    top: 80%;
+    right: 0;
+    color: #FFF;
+    padding: 12px;
+  }
+
+</style>
+
+
+<div class="feedback-button">
+  <img width="100%" src="/i/mail-white.svg"> 
+</div>
+
+
+
 <div class="container project-article mt-5">
   <div class="project-date">Січень 2020 — Проект триває</div>
   <div class="row">
@@ -166,36 +187,14 @@
     </div>
   </div>
 
-<!--   <div class="row">
-    <form method="post" action="contact.php">
-    <textarea name="message"></textarea>
-    <input type="submit">
-</form>
-  </div> -->
-
-<!--   <div class="row">
-
-    <?=$thankYou ?>
-
-    <form method="post" action="contact.php">
-        <label>Name:</label>
-        <input name="sender">
-
-        <label>Email address:</label>
-        <input name="senderEmail">
-
-        <label>Message:</label>
-        <textarea rows="5" cols="20" name="message"></textarea>
-
-        <input type="submit" name="Відправити">
-    </form>
-  </div> -->
 
 <div class="row">
   <div class="col-lg-6 col-12">  
 
 
     <div class="feedback-form disclamer">
+
+
 
 <form action="https://mailthis.to/road@a3.kyiv.ua"
     method="POST" encType="multipart/form-data" data-netlify="true" name="road-feedback">
@@ -207,12 +206,12 @@
           <textarea class="form-control" name="message" rows="6"></textarea>
         </div>
 
-        <div class="form-group row">
+        <div class="form-group row pr-3">
           <label for="colFormLabel" class="col-4 col-form-label">Прикласти файл:</label>
           <input type="file" class="form-control-file col-8" name="file">
         </div>
 
-        <div class="form-group row">
+        <div class="form-group row pr-3">
           <label for="colFormLabel" class="col-4 col-form-label">Пошта:</label>
           <input type="email" class="form-control col-8" name="_replyto">
         </div>
