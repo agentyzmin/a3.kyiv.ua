@@ -91,24 +91,65 @@
 <div class="container-fluid project-background-fluid fill" style="background-image: url('assets/cover-main.jpg');"></div>
 
 
-<style type="text/css">
-  .feedback-button {
-    position: fixed;
-    background-color: #32DC77;
-    width: 50px;
-    height: 50px;
-    top: 80%;
-    right: 0;
-    color: #FFF;
-    padding: 12px;
-  }
-
-</style>
 
 
-<div class="feedback-button">
-  <img width="100%" src="/i/mail-white.svg"> 
+
+<script type="text/javascript">
+function showDiv() {
+   document.getElementById('modal').style.display = "block";
+}
+function hideDiv() {
+   document.getElementById('modal').style.display = "none";
+}
+</script>
+<div class="feedback-popup" id="modal">
+  <a style="cursor: pointer;" onclick="hideDiv()">
+    <div class="close">
+    <svg class="w-100" viewBox="0 0 31.11 31.11">
+    <rect x="13.56" y="-4.44" transform="matrix(0.7071 0.7071 -0.7071 0.7071 15.5563 -6.4437)" fill="#8F9099" width="4" height="40"/>
+    <rect x="13.56" y="-4.44" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 37.5564 15.5563)" fill="#8F9099" width="4" height="40"/>
+    </svg>
+  </div>
+  </a>
+      <h3>Зворотній зв’зок</h3>
+      <p>Заохочуємо до&nbsp;обговорення через цю форму або через пошту <a href="mailto:road@a3.kyiv.ua">road@a3.kyiv.ua</a>.</p>
+
+
+  <form action="https://mailthis.to/road@a3.kyiv.ua"
+    method="POST" encType="multipart/form-data" data-netlify="true" name="road-feedback">
+        
+        <input type="hidden" name="_subject" value="Feedback">
+        
+        <div class="form-group">
+          <label for="colFormLabel" class="col-form-label-sm">Повідомлення</label>
+          <textarea class="form-control" name="message" rows="6"></textarea>
+        </div>
+
+        <div class="form-group row pr-3">
+          <label for="colFormLabel" class="col-4 col-form-label-sm">Прикласти файл:</label>
+          <input type="file" class="form-control-file col-8" name="file">
+        </div>
+
+        <div class="form-group row pr-3">
+          <label for="colFormLabel" class="col-4 col-form-label-sm">Пошта:</label>
+          <input type="email" class="form-control col-8" name="_replyto">
+        </div>
+
+        <input type="hidden" name="_honeypot" value="">
+        
+        <input type="hidden" name="_confirmation" value="Дякуємо за зворотній зв’язок! Слідкуйте за ходом проекту на сайті — a3.kyiv.ua/projects/road-wayfinding , у фейсбуці та телеграмі.">
+        
+        <button type="submit" class="btn btn-primary mb-2">Надіслати</button>
+
+      </form>
+
 </div>
+
+<a style="cursor: pointer;" onclick="showDiv()"><div class="feedback-button">
+  <img class="w-100 mb-3" src="/i/mail-white.svg">
+</div></a>
+
+
 
 
 
@@ -183,12 +224,14 @@
   <div class="row">
     <div class="col-12 col-lg-8">
       <h2>Зворотній зв’язок</h2>
-      <p>Ця&nbsp;сторінка буде розповідати про наші рішення та&nbsp;давати можливість залишити зворотній зв&rsquo;язок. Збоку на&nbsp;всіх сторінках проекту буде форма для коментарів. І&nbsp;ми&nbsp;заохочуємо всіх долучитись до&nbsp;обговорення через цю форму або через пошту <a href="mailto:road@a3.kyiv.ua">road@a3.kyiv.ua</a>.</p>
+      <p>Ця&nbsp;сторінка буде розповідати про наші рішення та&nbsp;давати можливість залишити зворотній зв&rsquo;язок. Збоку на&nbsp;всіх сторінках проекту буде <a style="cursor: pointer; text-decoration: none; border: none;" onclick="showDiv()"><span style="    background-color: #32DC77; color: #fff; border-radius: 3px;  padding: 0.25em 0.35em;"><img height="18" style="margin-bottom: 1px;" src="/i/mail-white.svg"> форма для коментарів 
+  
+</span></a>. І&nbsp;ми&nbsp;заохочуємо всіх долучитись до&nbsp;обговорення через цю форму або через пошту <a href="mailto:road@a3.kyiv.ua">road@a3.kyiv.ua</a>.</p>
     </div>
   </div>
 
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-lg-6 col-12">  
 
 
@@ -220,7 +263,6 @@
         
         <input type="hidden" name="_confirmation" value="Дякуємо за зворотній зв’язок! Слідкуйте за ходом проекту на сайті — a3.kyiv.ua/projects/road-wayfinding , у фейсбуці та телеграмі.">
         
-        <!-- <input type="hidden" name="_after" value="http://a3.kyiv.ua/projects/road-wayfinding"> -->
         <button type="submit" class="btn btn-primary mb-2">Надіслати</button>
 
 
@@ -233,7 +275,7 @@
 
 
   </div>
-</div>
+</div> -->
 
 </div>
 
