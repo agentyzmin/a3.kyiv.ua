@@ -21,6 +21,9 @@ Redirect /kolo /projects/kolo-podolu
 Redirect /kolo-podolu /projects/kolo-podolu
 Redirect /kontraktova-research /projects/kontraktova-research
 
+Redirect /road /projects/road-wayfinding
+
+
 
 
 Redirect /wayfinding /products/wayfinding/
