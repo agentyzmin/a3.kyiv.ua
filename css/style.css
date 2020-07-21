@@ -577,10 +577,12 @@ p.text{
     padding: 0;
 }
 
-.quote-smal {
-    font-size: 1em;
+.quote-small {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
     font-style: italic;
-    color: #FF7F4F;
+    /*font-weight: bold;*/
+    /*color: #FF7F4F;*/
 }
 
 
@@ -1104,6 +1106,50 @@ div.credits, ul.credits, li.credits {
   z-index: 999;
   display: none;
   }
+
+
+
+
+.lesha {
+  font-size: 18px;
+  /*border: 1px solid #000;*/
+  padding: 15px 20px;
+  /*background-color: #fefefe;*/
+}
+
+.lesha-av {
+  float: left;
+  margin-right: 15px;
+  margin-top: -25px;
+}
+
+.lesha-quote {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+
+.lesha-name, .lesha-quote  {
+  margin-left: 90px;
+}
+
+
+.author-initials {
+  font-weight: 700;
+  font-family: Georgia;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  margin-right: -0.1em;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
