@@ -1024,7 +1024,7 @@ div.credits, ul.credits, li.credits {
   background-color: #3AAA35;
 }
 
-.road-num.blue {
+.road-num.blue, .road-num.r, .road-num.t  {
   background-color: #033878;
 }
 
@@ -1036,7 +1036,7 @@ div.credits, ul.credits, li.credits {
   color: #000;
 }
 
-.road-num.transp, .road-num.r, .road-num.t {
+.road-num.transp {
   background-color:none; 
   padding: 0.25em 0.25em 0.05em; 
   border: solid 0.11em; 
