@@ -1150,7 +1150,19 @@ div.credits, ul.credits, li.credits {
   overflow: hidden;
 }
 
+  .project-number {
+    position: absolute;
+    left: -90px;
+    font-size: 70px;
+    font-weight: 700;
+    /*color: #CFCFCF;*/
+  }
+  .project-number-mobile {
 
+    font-size: 35px;
+    font-weight: 700;
+    /*color: #CFCFCF;*/
+  }
 
 
 
