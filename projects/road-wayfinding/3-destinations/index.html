@@ -225,18 +225,18 @@ function hideDiv() {
   <div class="row">
     <div class="col-12 col-lg-9">
 
-<h2>Знак напрямків руху</h2>
+      <h2>Знак напрямків руху</h2>
 
-<p>
-  Напрямки можна розділити на&nbsp;три типи: вперед <img height="18px" src="assets/arrow-forward.svg" >, 
-  з&rsquo;їзд з&nbsp;траси наліво чи&nbsp;направо
-  <img height="14px" src="assets/arrow-forward-left.svg">
-  <img height="13px" src="assets/arrow-left.svg">
-  <img height="13px" src="assets/arrow-right.svg">
-  <img height="14px" src="assets/arrow-forward-right.svg" >, 
-  розворот <img height="20px" src="assets/arrow-turnaround.svg">. 
-  На&nbsp;знаку вказують не&nbsp;більше трьох дестинацій в&nbsp;сумі, незалежно від того, скільки знак відображає напрямків.
-</p>
+      <p>
+        Напрямки можна розділити на&nbsp;три типи: вперед <img height="18px" src="assets/arrow-forward.svg" >, 
+        з&rsquo;їзд з&nbsp;траси наліво чи&nbsp;направо
+        <img height="14px" src="assets/arrow-forward-left.svg">
+        <img height="13px" src="assets/arrow-left.svg">
+        <img height="13px" src="assets/arrow-right.svg">
+        <img height="14px" src="assets/arrow-forward-right.svg" >, 
+        розворот <img height="20px" src="assets/arrow-turnaround.svg">. 
+        На&nbsp;знаку вказують не&nbsp;більше трьох дестинацій в&nbsp;сумі, незалежно від того, скільки знак відображає напрямків.
+      </p>
       <p>
         <ol>
           <li>Найближчий населений пункт. Для розвороту до&nbsp;уваги беруть також населені пункти, що&nbsp;лежать поза поточною трасою.</li>
@@ -244,23 +244,52 @@ function hideDiv() {
           <li>Термінальний населений пункт. Ми&nbsp;маємо гіпотезу, що&nbsp;частина водіїв орієнтується за&nbsp;назвами трас, як&nbsp;от&nbsp;<span class="road-num n">Н&nbsp;31</span> <strong>Дніпро&nbsp;&mdash; Решетилівка</strong>.</li>
         </ol>
       </p>
+      <p>Якщо у&nbsp;відповідному напрямку більше трьох населених пунктів, розглядають лише&nbsp;ті, в&nbsp;яких проживає понад 100&nbsp;людей.</p>
+      <p>Якщо на&nbsp;маршруті є&nbsp;декілька населених пунктів однакового статусу, для відображення обирають найближчий з&nbsp;них.</p>
+    </div>
+  </div>
+</div>
 
+
+
+<div class="container mb-5">
+
+  <div class="row mb-4">
+    <div class="col-lg-6 col-10">
+      <img class="w-100" src="assets/road-map-2-8.png">
+    </div>
+    <div class="col-lg-3 col-6">  
+      <img class="w-100" src="assets/direction-back-8.png">
+    </div>
+    <div class="col-lg-8 col-12 mb-4">
+      <p class="caption">
+        Розворот на трасі <span class="road-num n">М&nbsp;06</span>: показуємо наближче місто Бриків, в яке буде з’їзд, та напрямок на Житомир на Київ.
+      </p>
     </div>
   </div>
 
   <div class="row mb-4">
-    <div class="col-lg-3 col-6">  
-      <img class="w-100" src="assets/direction-back-8.png">
-    </div>
     <div class="col-lg-6 col-10">
-      <img class="w-100" src="assets/road-map-2-8.png">
+      <img class="w-100" src="assets/road-map-4-8.png">
+    </div>
+    <div class="col-lg-6 col-6">  
+      <img class="w-100" src="assets/directions-4-8.png">
+    </div>
+    <div class="col-lg-8 col-12 mb-4">
+      <p class="caption">
+        Розв’язка на перетині <span class="road-num n">Н&nbsp;01</span> та <span class="road-num n">Н&nbsp;16</span>: показуємо найближчі міста у напрямку руху (Городище та Шпола) та кінцеві на трасах (Київ та Умань).
+      </p>
     </div>
   </div>
 
+</div>
+
+
+
+
+<div class="container mb-5">
   <div class="row">
     <div class="col-12 col-lg-9">  
-      <p>Якщо у&nbsp;відповідному напрямку більше трьох населених пунктів, розглядають лише&nbsp;ті, в&nbsp;яких проживає понад 100&nbsp;людей.</p>
-      <p>Якщо на&nbsp;маршруті є&nbsp;декілька населених пунктів однакового статусу, для відображення обирають найближчий з&nbsp;них.</p>
       <p>Якщо є&nbsp;можливість вказати лише дві дестинації, вказують:
         <ul>
           <li>Населений пункт із&nbsp;найвищим статусом, не&nbsp;враховуючи термінального. Для розвороту&nbsp;&mdash; найближчий.</li>
@@ -270,7 +299,7 @@ function hideDiv() {
       <p>Якщо поняття термінального населеного пункту неможливо використати для певного напрямку, вказують найвіддаленіший від траси населений пункт. Наприклад, якщо дорога відходить від траси, робить гак і&nbsp;повертається до&nbsp;цієї&nbsp;ж траси.</p>
 
       <img class="w-100" src="assets/road-map-3-8.png">
-      <p class="caption">У траси <span class="road-num t">Т 06–02</span> немає термінального населеного пункту, вона переходить у <span class="road-num m">М 06</span></p>
+      <p class="caption">У траси <span class="road-num t">Т 06–02</span> немає термінального населеного пункту, вона бере початок і закінчується у перетині з <span class="road-num m">М 06</span></p>
     </div>
   </div>
 </div>
