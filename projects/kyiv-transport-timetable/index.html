@@ -291,51 +291,6 @@
     </div>
   </div>
 
-
-
-
-<!-- Load d3.js -->
-<script src="https://d3js.org/d3.v4.js"></script>
-
-<!-- Load d3-annotatin -->
-<script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
-
-
-        
-<!-- Create a div where the graph will take place -->
-<!-- <svg width="100%" height="100%"  id="example1">
-  <image xlink:href="assets/timetable-2019-1.png" x="0" y="0" width="100%">
-</svg> -->
-
-<script>
-
-// Features of the annotation
-const annotations = [
-  {
-    note: {
-      title: "Вид",
-      label: "label",
-      align: "left"
-    },
-    type: d3.annotationLabel,
-    x: 0,
-    y: 0,
-    dy: 10,
-    dx: 10
-  }
-]
-
-// Add annotation to the chart
-const makeAnnotations = d3.annotation()
-  .annotations(annotations)
-d3.select("#example1")
-  .append("g")
-  .call(makeAnnotations)
-
-
-</script>
-
-
   <div class="container">
     <div class="row">
       <div class="col-12 mt-5 mb-3"><img class="w-100 doc-shadow mb-4" src="assets/timetable-2019-1.png"></div>
@@ -362,20 +317,13 @@ d3.select("#example1")
   </div>
 </div>
 
-
-
-
-
-
-
-
 <div class="container">
   <div class="row">
     <div class="col-12 col-lg-8 mt-5">
       <p>Проект по&nbsp;створенню розкладів подали на&nbsp;програму Громадського бюджету. Для привернення уваги для голосування та&nbsp;з&nbsp;тестовою метою розвісили розклади у&nbsp;файликах прямо на&nbsp;зупинках.</p>
     </div> 
     <div class="col-12">
-      <img src="assets/kyiv-test.jpg" alt="Тестування розкладів">
+      <img class="w-100" src="assets/kyiv-test.jpg" alt="Тестування розкладів">
       <p class="caption">Тестування розкладів</p>
     </div>
 
@@ -385,8 +333,8 @@ d3.select("#example1")
   </div>
 
   <div class="row">
-    <div class="col-6"><img class="w-100" src="assets/box-lviv-1.jpg"></div>
-    <div class="col-6"><img class="w-100" src="assets/box-lviv-2.jpg"></div>
+    <div class="col-lg-6 col-12 mt-1"><img class="w-100" src="assets/box-lviv-1.jpg"></div>
+    <div class="col-lg-6 col-12 mt-1"><img class="w-100" src="assets/box-lviv-2.jpg"></div>
     <div class="col-12 mt-2">
       <p class="caption"><a href="https://demyandanylyuk.wordpress.com/2016/04/13/at-the-stop/" target="_blank">Дем’ян Данилюк показує приклади у своєму блозі</a></p>
     </div>
@@ -411,11 +359,11 @@ d3.select("#example1")
 </div>
 
 
-<div class="container-fluid bg-light p-5">
+<div class="container-fluid bg-light pt-5">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1>Продовження у 2020</h1>
+        <h1>Продовження у&nbsp;2020</h1>
       </div>
       <div class="col-12 col-lg-8">
         <p>ГО&nbsp;&laquo;Екодія&raquo; запустила кампанію задля популяризації смуг громадського транспорту і&nbsp;привернення уваги мешканців до&nbsp;проблеми транспорту в&nbsp;Києві.</p>
@@ -423,6 +371,7 @@ d3.select("#example1")
       </div>
     </div>
   </div>
+
   <div class="container">
     <div class="row">
       <div class="col-12 mt-3 mb-3"><img class="w-100 doc-shadow mb-4" src="assets/timetable-2020-1.png"></div>
@@ -486,7 +435,7 @@ d3.select("#example1")
       <p>В&nbsp;офіційних джерелах такої інформації немає, тому для цього запартнеримось з&nbsp;<a href="https://www.eway.in.ua/ua/cities/kyiv" target="_blank">Easyway</a> і&nbsp;брати в&nbsp;них актуальні дані про рух транспорту. Таким чином кожен охочий зможе розмістити розклади маршрутів у&nbsp;себе на&nbsp;зупинці.</p>
       <p>Можете підтримати проект гривнею:</p>
 
-      <div class="bg-light container-fluid doc-shadow pt-2 pl-3 pl-3 pb-3">
+      <div class="bg-light container-fluid doc-shadow pt-lg-2 pt-3 pl-3 pl-3 pb-lg-3 pb-4">
         <div class="row">
           <div class="col-lg-5 col-12">
             <img class="w-100" src="assets/browser.jpg">
@@ -495,7 +444,7 @@ d3.select("#example1")
             <h5>Генератор розкладів</h5>
             <p>Можливість обрати необхідні маршрути чи&nbsp;зупинки та&nbsp;завантажити для них розклад у&nbsp;форматі PDF.</p>
             <a href="https://www.liqpay.ua/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTE2ODY4MjYwMDAwIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCd0LDQtNCw0L3QvdGPINCx0LXQt9C%2F0L7QstC%2B0YDQvtGC0L3QvtGXINGE0ZbQvdCw0L3RgdC%2B0LLQvtGXINC00L7Qv9C%2B0LzQvtCz0LgiLCJ0eXBlIjoiZG9uYXRlIiwic2VydmVyX3VybCI6Imh0dHA6Ly9hMy5reWl2LnVhL3RoYW5rcyIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=us9yPYrMUcSmxBSZbKP0LqYvcM8%3D" target="_blank">
-              <button type="button" class="btn btn-primary " style="padding: 10px 30px 10px 30px;font-weight: 600;">Підтримати</button>
+              <button type="button" class="btn btn-primary" style="padding: 10px 30px 10px 30px;font-weight: 600;">Підтримати</button>
             </a>
           </div>
         </div>
