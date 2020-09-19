@@ -13,4 +13,4 @@ jobs:
       with:
         ftp-server: mapazmin.ftp.tools
         ftp-username: mapazmin_a3
-        ftp-password: f5gx4y04
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
