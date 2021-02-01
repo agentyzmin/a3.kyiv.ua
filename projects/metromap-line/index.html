@@ -30,7 +30,6 @@
     <link rel="stylesheet" href="/css/likely.css">
     <link  href="/css/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
 
-
     <!-- Style -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
@@ -59,8 +58,8 @@
               </li>
               
               <li class="nav-item">
-<a class="nav-link no-border img-link" href="/donate" role="button" aria-expanded="false">Фонд</a>
-</li>
+                <a class="nav-link no-border img-link" href="/donate" role="button" aria-expanded="false">Фонд</a>
+              </li>
               </li>
               <li class="nav-item">
                   <a class="nav-link no-border img-link" target="_blank" href="http://blog.a3.kyiv.ua" role="button" aria-expanded="false">Блог <svg width="9px" height="8px" viewBox="0 0 9 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M4.71971539,2.67826179 L2.86363636,1.80481283 L7.9171123,0 L9,4.69251337 L7.32095823,3.90237607 C5.28046747,6.49236995 2.17536973,7.36363636 0,7.36363636 C2.55148779,5.78322764 4.12472625,4.22143611 4.71971539,2.67826179 Z" id="Combined-Shape" fill="#3C3C3B"></path></g></svg></a>
@@ -88,7 +87,66 @@
 </div>
 
 
-<div class="container-fluid project-background-fluid fill bg-light" style="background-image: url('assets/cover.jpg');"></div>
+<style type="text/css">
+.videocover {
+  position: relative;
+  top: 42%;
+  left: 50%;
+  min-width: 100%;
+  /*min-height: 100%;*/
+  width: 100%;
+  /*height: 100%;*/
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+/*  animation: movingvc  8s infinite ease-in-out;*/
+}
+
+@media (max-width: 767.98px){
+  .videocover {
+    top: 49%;
+    width: 160%;
+  }
+}
+
+/*@keyframes movingvc {
+  from {  
+      transform: translateX(-50%) translateY(-50%);
+    ;}
+  33% {   
+      transform: translateX(-49%) translateY(-49%);
+      ;}
+  66% {   
+      transform: translateX(-51%) translateY(-51%);
+      ;}
+  to {    
+      transform: translateX(-50%) translateY(-50%);
+    ;}
+}*/
+
+</style>
+<div class="container-fluid project-background-fluid fill bg-light p-0" style="">
+  <video class="videocover p-0 m-0" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="assets/cover.mp4" type="video/mp4">
+    <source src="assets/cover.webm" type="video/webm">
+  </video>
+</div>
+
+
+<div class="container mt-4 d-sm-none d-md-block">
+    <p class="project-nav-description">Інші проекти для&nbsp;метро:<br>
+    <a class="mr-3" href="/projects/metromap/">Схема&nbsp;метро</a>
+    <a class="mr-3" href="/projects/metrocard">Картки&nbsp;метро</a>
+    <a class="mr-3" href="/projects/metro-screens">Інформаційні&nbsp;екрани</a>
+    <a class="mr-3" href="/projects/metro-vending-machines">Автомати&nbsp;оплати&nbsp;проїзду</a>
+    <a class="mr-3" href="/projects/metro-posters">Плакати</a>
+    <a class="mr-3" href="/projects/metro-wayfinding/">Навігація&nbsp;у&nbsp;метро</a>
+    </p>
+</div>
+
 
 <div class="container project-article mt-5 ">
   <div class="project-date">Січень 2015</div>
@@ -100,14 +158,16 @@
 </div>
 
 
-
 <div class="container">
   <div class="row">
     <div class="col-lg-9 col-12">
       <p class="lead">
         Слідом за&nbsp;загальною схемою швикісного транспорту ми&nbsp;взялися за&nbsp;дизайн усіх лінійних схем у&nbsp;вагонах. Головна задача цих схем&nbsp;&mdash; допомогти із&nbsp;визначенням кількості проміжних станцій до&nbsp;необхідної та&nbsp;зорієнтуватись, коли виходити. Робити її&nbsp;було у&nbsp;три рази легше, тому що&nbsp;на&nbsp;кожній схемі лінія одна. Але й&nbsp;у&nbsp;три рази складніше, тому що&nbsp;у&nbsp;нас цілий &laquo;зоопарк&raquo; вагонів із&nbsp;різними панелями над дверями.
       </p>
-    </div>     
+    </div>    
+    <div class="col-lg-3 d-sm-none d-md-block">
+      <p><a href="version">Версії лінійних схем</a></p>
+    </div> 
     <div class="col-12 mt-4">
       <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M1-red.jpg">
       <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M1-red-reverse.jpg">
@@ -116,7 +176,7 @@
       <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M3-green.jpg">
       <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M3-green-reverse.jpg">
       <p class="caption">Версія 1.10, січень 2020</p>
-      <p><a href="version">Версії лінійних схем</a></p>
+
     </div>
   </div>
 </div>
@@ -127,13 +187,15 @@
   <div class="row">
     <div class="col-lg-9 col-12">
       <h2>Проблема</h2>
-      <p>…</p>
+      <p>Основні проблеми саме лінійних схем: прозора плівка, на&nbsp;якій написи погано читаються, неконстрастні кольори, незручне розташування на&nbsp;вікнах та&nbsp;нахилені написи.</p>
     </div>
-      <div class="col-lg-9"><img class="w-100" src="assets/old-schemes/line-old-1.jpg"></div>
-      <div class="col-lg-3"><img class="w-100" src="assets/old-schemes/line-old-3.jpg"></div>
-      <div class="col-lg-3"><img class="w-100" src="assets/old-schemes/line-old-4.jpg"></div>
-      <div class="col-lg-3"><img class="w-100" src="assets/old-schemes/line-old-5.jpg"></div>
-      <div class="col-lg-3"><img class="w-100" src="assets/old-schemes/line-old-9.jpg"></div>
+    <div class="fotorama col-lg-9 col-12" data-fit="cover">
+      <img class="" src="assets/old-schemes/line-old-1.jpg">
+      <img class="" src="assets/old-schemes/line-old-3.jpg">
+      <img class="" src="assets/old-schemes/line-old-4.jpg">
+      <img class="" src="assets/old-schemes/line-old-5.jpg">
+      <img class="" src="assets/old-schemes/line-old-9.jpg">
+    </div>
       <div class="col-12"><p class="caption">Старі лінійні схеми</p></div>
     
   </div>
@@ -145,7 +207,7 @@
   <div class="row">
     <div class="col-lg-9 col-12">
       <h2>Розміри</h2>
-      <p>Нова схема вдвічі більша за попередню. Завдяки багаторазовим приміркам тестових схем ми з’ясували, що розмір 120 см найбільш прийнятний. Це дозволяє без проблем розмістити схему у різних вагонах та зробити шрифт максимально великим.</p>
+      <p>Нова схема вдвічі більша за&nbsp;попередню. Завдяки багаторазовим приміркам тестових схем ми&nbsp;з&rsquo;ясували, що&nbsp;розмір 120&nbsp;см найбільш прийнятний. Це&nbsp;дозволяє без проблем розмістити схему у&nbsp;різних вагонах та&nbsp;зробити шрифт максимально великим.</p>
 
       <img class="w-100" src="assets/metromap-line-n2.jpeg">
       <p class="caption">Нова та стара лінійні схеми</p>
@@ -160,7 +222,7 @@
     <div class="col-lg-9 col-12">
 
 <h2>Текст</h2>
-<p>На відміну від старих схем текст тепер розташований горизонтально. Це спрошує читання написів та, сподіваємось, зменшить кількість травм шиї:) Навколо тексту тепер більше простору, тому назви станцій не злипаються у суцільну масу.</p>
+<p>На&nbsp;відміну від старих схем текст тепер розташований горизонтально. Це&nbsp;спрошує читання написів&nbsp;та, сподіваємось, зменшить кількість травм шиї:) Навколо тексту тепер більше простору, тому назви станцій не&nbsp;злипаються у&nbsp;суцільну масу.</p>
 
 <img class="w-100" src="assets/metromap-line-n3.jpeg">
 <p class="caption">Порівняння розмірів тексту</p>
@@ -178,7 +240,7 @@
   <div class="row">
     <div class="col-lg-9 col-12">
 <h2>Пересадки метро</h2>
-<p>Більшість поїздок у метро пов’язані із пересадками між лініями. Тому ми вирішили їх особливо виділити: лінії перетинають схему практично повністю та створюють візуальний якір. Окрім цього, пересадки на лінійній схемі схожі на пересадки на загальній за рахунок використання «гантельок».</p>
+<p>Більшість поїздок у&nbsp;метро пов&rsquo;язані із&nbsp;пересадками між лініями. Тому ми&nbsp;вирішили їх&nbsp;особливо виділити: лінії перетинають схему практично повністю та&nbsp;створюють візуальний якір. Окрім цього, пересадки на&nbsp;лінійній схемі схожі на&nbsp;пересадки на&nbsp;загальній за&nbsp;рахунок використання &laquo;гантельок&raquo;.</p>
 
 <img class="w-100" src="assets/metromap-line-n4.jpeg">
 <p class="caption">Пересадки між лініями</p>
@@ -192,7 +254,7 @@
   <div class="row">
     <div class="col-lg-9 col-12">
       <h2>Пересадки на інший транспорт</h2>
-      <p>Окремим інформаційним шаром тепер з’явились пересадки на інший швидкісний транспорт — міську електричку та швидкісний трамвай. Також ми перенесли із загальної схеми основні залізничні та автовокзали: Цетральний, Південний та Дарницький залічничні вокзали, залізничну станцію Святошин, Центральний автовокзал, автостанції Київ та Видубичі. Також додали транспорт, який прямує в аеропорти.</p>
+      <p>Окремим інформаційним шаром тепер з&rsquo;явились пересадки на&nbsp;інший швидкісний транспорт&nbsp;&mdash; міську електричку та&nbsp;швидкісний трамвай. Також ми&nbsp;перенесли із&nbsp;загальної схеми основні залізничні та&nbsp;автовокзали: Цетральний, Південний та&nbsp;Дарницький залічничні вокзали, залізничну станцію Святошин, Центральний автовокзал, автостанції Київ та&nbsp;Видубичі. Також додали транспорт, який прямує в&nbsp;аеропорти.</p>
       <img class="w-100" src="assets/metromap-line-n5.jpeg">
       <p class="caption">Пересадки на інший транспорт</p>
     </div>
@@ -294,7 +356,7 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-9 col-12">
-      <h2>Намалював — треба тестувати</h2>
+      <h2>Примірки</h2>
       <p>У&nbsp;якості будь-якого дизайн-проекту, який не&nbsp;призначений для екрану, не&nbsp;можна бути вневненим доки бачиш його тільки на&nbsp;екрані. Будь-які гіпотези та&nbsp;рішення повинні пройти тестування. Ми&nbsp;друкували кожну версію, розвішували на&nbsp;стінах Часописа та&nbsp;обговорювали&nbsp;їх, а&nbsp;вже потім приміряли усі варіанти у&nbsp;вагонах. Тільки завдяки тестам ми&nbsp;визначили оптимальні розміри самих схем і&nbsp;тексту на&nbsp;них.</p>
     </div>
 
@@ -321,6 +383,7 @@
       <img class="w-100 mb-3" src="assets/beta/metromap-line-beta-photo-1.jpg">
       <!-- <img class="w-100" src="assets/beta/metromap-line-beta-photo-2.jpg"> -->
       <!-- <img class="w-100" src="assets/beta/metromap-line-beta-photo-3.jpg"> -->
+      <p class="caption">Бета-версія схем у вагонах</p>
     </div>
 
   </div>
@@ -372,7 +435,6 @@
     <div class="col-lg-9 col-12 mt-5">
       <h2>Січень 2021: у&nbsp;метро з&rsquo;явились схеми з&nbsp;лампочками</h2>
       <p>
-        И там новая линейная схема с лампочками. И она вроде наша, но нет: пересадки не чёрные, кавычки неграмотные, тексты переставлены и не учтены мелочи, выглядит неопрятно.  Видно что расстояния между лампочками одинаковое, и пытались вместить.
       </p>
     </div>
     <div class="col-12">
