@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Схема швидкісного транспорту — Агенти змін</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- OG info for sharing -->
+    <meta property="og:title" content="Схема швидкісного транспорту — Агенти змін" />
+    <meta property="og:description" content="Процес розробки схеми швидкісного транспорту Києва" />
+
+    <meta property="og:url" content="http://a3.kyiv.ua/projects/metromap" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/cover.jpg" />
+    <meta property="og:image:secure_url" content="assets/cover.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+    <meta property="og:image:alt" content="Схема швидкісного транспорту" />
+
+    <link rel="shortcut icon" href="/i/favicon.ico" type="image/x-icon">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/likely.css">
+    <link  href="/css/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+
+    <!-- Style -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+
+<body class="mt-0 pt-0">
+<div class="container">
+<nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand no-border" href="/">
+        <img src="/i/a3-logo-small-black.svg" width="50" height="50" alt="" /><span class="nav-logo-text">Агенти змін</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" href="/products">Що ми робимо</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" href="/projects" role="button" aria-expanded="false">Проекти</a>
+              </li>
+
+              <li class="nav-item">
+                                    <a class="nav-link no-border img-link" href="/about" role="button" aria-expanded="false">Про нас</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link no-border img-link" href="/donate" role="button" aria-expanded="false">Фонд</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" target="_blank" href="http://blog.a3.kyiv.ua" role="button" aria-expanded="false">Блог <svg width="9px" height="8px" viewBox="0 0 9 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M4.71971539,2.67826179 L2.86363636,1.80481283 L7.9171123,0 L9,4.69251337 L7.32095823,3.90237607 C5.28046747,6.49236995 2.17536973,7.36363636 0,7.36363636 C2.55148779,5.78322764 4.12472625,4.22143611 4.71971539,2.67826179 Z" id="Combined-Shape" fill="#3C3C3B"></path></g></svg></a>
+              </li>
+          </ul>
+          <ul class="navbar-nav  d-flex flex-row-  social_items">
+              <li class="nav-item">
+                  <a class="nav-link no-border img-link" href="https://facebook.com/agentyzmin"> <img src="/i/social_fb.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://twitter.com/agentyzmin"> <img src="/i/social_tw.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://instagram.com/agentyzmin"> <img src="/i/social_inst.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://t.me/agentyzmin"> <img src="/i/social_telegram.svg"></a>
+              </li>
+              <li class="nav-item social-hover">
+                  <a class="nav-link no-border img-link" href="https://www.youtube.com/channel/UCo99u1nJ7hkVvuWcGbL-pGQ"> <img src="/i/social_yt.svg"></a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+</div>
+
+
+<style type="text/css">
+.videocover {
+  position: relative;
+  top: 42%;
+  left: 50%;
+  min-width: 100%;
+  /*min-height: 100%;*/
+  width: 100%;
+  /*height: 100%;*/
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+
+/*  animation: movingvc  8s infinite ease-in-out;*/
+}
+
+@media (max-width: 767.98px){
+  .videocover {
+    top: 49%;
+    width: 160%;
+  }
+}
+
+/*@keyframes movingvc {
+  from {  
+      transform: translateX(-50%) translateY(-50%);
+    ;}
+  33% {   
+      transform: translateX(-49%) translateY(-49%);
+      ;}
+  66% {   
+      transform: translateX(-51%) translateY(-51%);
+      ;}
+  to {    
+      transform: translateX(-50%) translateY(-50%);
+    ;}
+}*/
+
+</style>
+<div class="container-fluid project-background-fluid fill bg-light p-0" style="">
+  <video class="videocover p-0 m-0" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="assets/cover.mp4" type="video/mp4">
+    <source src="assets/cover.webm" type="video/webm">
+  </video>
+</div>
+
+
+<div class="container mt-4 d-sm-none d-md-block">
+    <p class="project-nav-description">Інші проекти для&nbsp;метро:<br>
+    <a class="mr-3" href="/projects/metromap/">Схема&nbsp;метро</a>
+    <a class="mr-3" href="/projects/metrocard">Картки&nbsp;метро</a>
+    <a class="mr-3" href="/projects/metro-screens">Інформаційні&nbsp;екрани</a>
+    <a class="mr-3" href="/projects/metro-vending-machines">Автомати&nbsp;оплати&nbsp;проїзду</a>
+    <a class="mr-3" href="/projects/metro-posters">Плакати</a>
+    <a class="mr-3" href="/projects/metro-wayfinding/">Навігація&nbsp;у&nbsp;метро</a>
+    </p>
+</div>
+
+
+<div class="container project-article mt-5 ">
+  <div class="project-date">Січень 2015</div>
+  <div class="row">
+    <h1 class="col-12 col-lg-10">
+      Лінійні схеми метро
+    </h1>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <p class="lead">
+        Слідом за&nbsp;загальною схемою швикісного транспорту ми&nbsp;взялися за&nbsp;дизайн усіх лінійних схем у&nbsp;вагонах. Головна задача цих схем&nbsp;&mdash; допомогти із&nbsp;визначенням кількості проміжних станцій до&nbsp;необхідної та&nbsp;зорієнтуватись, коли виходити. Робити її&nbsp;було у&nbsp;три рази легше, тому що&nbsp;на&nbsp;кожній схемі лінія одна. Але й&nbsp;у&nbsp;три рази складніше, тому що&nbsp;у&nbsp;нас цілий &laquo;зоопарк&raquo; вагонів із&nbsp;різними панелями над дверями.
+      </p>
+    </div>    
+    <div class="col-lg-3 d-sm-none d-md-block">
+      <p><a href="versions">Версії лінійних схем</a></p>
+    </div> 
+    <div class="col-12 mt-4">
+      <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M1-red.jpg">
+      <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M1-red-reverse.jpg">
+      <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M2-blue.jpg">
+      <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M2-blue-reverse.jpg">
+      <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M3-green.jpg">
+      <img class="w-100 metromap-border doc-shadow mb-4" src="assets/1.10/M3-green-reverse.jpg">
+      <p class="caption">Версія 1.10, січень 2020</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <h2>Проблема</h2>
+      <p>Основні проблеми саме лінійних схем: прозора плівка, на&nbsp;якій написи погано читаються, неконстрастні кольори, незручне розташування на&nbsp;вікнах та&nbsp;нахилені написи.</p>
+    </div>
+    <div class="fotorama col-lg-9 col-12" data-fit="cover">
+      <img class="" src="assets/old-schemes/line-old-1.jpg">
+      <img class="" src="assets/old-schemes/line-old-3.jpg">
+      <img class="" src="assets/old-schemes/line-old-4.jpg">
+      <img class="" src="assets/old-schemes/line-old-5.jpg">
+      <img class="" src="assets/old-schemes/line-old-9.jpg">
+    </div>
+      <div class="col-12"><p class="caption">Старі лінійні схеми</p></div>
+    
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <h2>Розміри</h2>
+      <p>Нова схема вдвічі більша за&nbsp;попередню. Завдяки багаторазовим приміркам тестових схем ми&nbsp;з&rsquo;ясували, що&nbsp;розмір 120&nbsp;см найбільш прийнятний. Це&nbsp;дозволяє без проблем розмістити схему у&nbsp;різних вагонах та&nbsp;зробити шрифт максимально великим.</p>
+
+      <img class="w-100" src="assets/metromap-line-n2.jpeg">
+      <p class="caption">Нова та стара лінійні схеми</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+
+<h2>Текст</h2>
+<p>На&nbsp;відміну від старих схем текст тепер розташований горизонтально. Це&nbsp;спрошує читання написів&nbsp;та, сподіваємось, зменшить кількість травм шиї:) Навколо тексту тепер більше простору, тому назви станцій не&nbsp;злипаються у&nbsp;суцільну масу.</p>
+
+<img class="w-100" src="assets/metromap-line-n3.jpeg">
+<p class="caption">Порівняння розмірів тексту</p>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+<h2>Пересадки метро</h2>
+<p>Більшість поїздок у&nbsp;метро пов&rsquo;язані із&nbsp;пересадками між лініями. Тому ми&nbsp;вирішили їх&nbsp;особливо виділити: лінії перетинають схему практично повністю та&nbsp;створюють візуальний якір. Окрім цього, пересадки на&nbsp;лінійній схемі схожі на&nbsp;пересадки на&nbsp;загальній за&nbsp;рахунок використання &laquo;гантельок&raquo;.</p>
+
+<img class="w-100" src="assets/metromap-line-n4.jpeg">
+<p class="caption">Пересадки між лініями</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <h2>Пересадки на інший транспорт</h2>
+      <p>Окремим інформаційним шаром тепер з&rsquo;явились пересадки на&nbsp;інший швидкісний транспорт&nbsp;&mdash; міську електричку та&nbsp;швидкісний трамвай. Також ми&nbsp;перенесли із&nbsp;загальної схеми основні залізничні та&nbsp;автовокзали: Цетральний, Південний та&nbsp;Дарницький залічничні вокзали, залізничну станцію Святошин, Центральний автовокзал, автостанції Київ та&nbsp;Видубичі. Також додали транспорт, який прямує в&nbsp;аеропорти.</p>
+      <img class="w-100" src="assets/metromap-line-n5.jpeg">
+      <p class="caption">Пересадки на інший транспорт</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <h2>Культурний шар</h2>
+      <p>Мабуть, найпомітніша відмінність від попередньої схеми та подібних схем із інших метрополітенів — ми показали визначні об’єкти, які розташовані поблизу станцій метро. Всередині команди ми жартома називаємо це «культурний шар». Це не перелік пам’яток чи туристичних атракцій — це просто набір візуальних орієнтирів, які допоможуть асоціативно звя’зати станцію із впізнаваними об’єктами.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 p-0 mt-4 mb-2">
+      <img class="w-100" src="assets/metromap-line-n6.jpeg">
+      
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <p class="caption mb-5">Пам’ятки біля станцій</p>
+      <p>Ми розуміємо, що вибір візуального орієнтира для станцій — питання спірне. Але це поки що лише бета-версія, і кожен може висловитися з приводу того, які орієнтири більш доречні на схемах. Зауважте, ми не прагнемо знайти орієнтир для кожної станції, у цьому мало сенсу.</p>
+    <!-- </div> -->
+
+      <img height="100" src="assets/metromap-line-illustrations/zoo-old.png" alt="Зоопарк до 2020 (старий вхід)"><!-- <p class="caption">Зоопарк, старий вхід</p> -->
+      <img height="100" src="assets/metromap-line-illustrations/zoo-new.png" alt="Зоопарк з 2020 (новий вхід)"><!-- <p class="caption">Зоопарк, новий вхід, з 2020</p> -->
+      <img height="100" src="assets/metromap-line-illustrations/vernadsky-library.png" alt="Національна бібліотека ім. Вернадського">
+      <img height="100" src="assets/metromap-line-illustrations/vdnh.png" alt="ВДНГ">
+      <img height="100" src="assets/metromap-line-illustrations/river-port.png" alt="Річковий порт">
+      <img height="100" src="assets/metromap-line-illustrations/scientific-and-technical-library.png" alt="Науково-технічна бібліотека">
+      <img height="100" src="assets/metromap-line-illustrations/sports-palace.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/st-volodymyr-cathedral.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/nsc-olimpiyskiy.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/opera-theatre.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/palats-ukraina.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/podil.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/kyiv-fortress.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/kyiv-pechersk-lavra.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/maidan.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/central-railway-station.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/golden-gate.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/botanical-garden.png" alt="">
+      <img height="100" src="assets/metromap-line-illustrations/babin-yar.png" alt="">
+
+      <p class="mt-5">Були намальвані ще декілька пам’яток, які не увійшли до схем, проте використовувались деінде у навігації по місту.</p>
+      <img height="100" src="assets/metromap-line-illustrations/university.png">
+      <img height="100" src="assets/metromap-line-illustrations/hostinnyi-dvir.png">
+      <img height="100" src="assets/metromap-line-illustrations/kyiv-fortress-2.png">
+      <img height="100" src="assets/metromap-line-illustrations/kyiv-fortress-3.png">
+      <img height="100" src="assets/metromap-line-illustrations/tsum.png">
+      <img height="100" src="assets/metromap-line-illustrations/motherland.png">
+
+
+      <p class="mt-5"><a href="assets/metromap-line-illustrations/metromap-line-illustrations.pdf">Завантажити піктограми (PDF)</a></p>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12 mt-5">
+      <h2>Розташування схем у&nbsp;вагонах</h2>
+      <p>Зараз майже всі схеми надруковані на&nbsp;прозорій плівці та&nbsp;наклеєні на&nbsp;скло. Тому їх&nbsp;доволі складно помітити, а&nbsp;коли потяг знаходиться не&nbsp;в&nbsp;тунелі, то&nbsp;неможливо щось прочитати.</p>
+      <p>Ми&nbsp;послідовно захищаємо одну просту істину: вікна&nbsp;&mdash; щоб крізь них дивитися, тому на&nbsp;них не&nbsp;потрібно взагалі нічого клеїти, тим більше, що&nbsp;це&nbsp;вкрай важко прочитати. Тому ми&nbsp;розташували лінійні схеми над дверима&nbsp;&mdash; так вони доступні більшій кількості пасажирів. До&nbsp;того&nbsp;ж, нещодавно усі площини над дверима звільнили від реклами, тому ніяких проблем із&nbsp;їхнім використанням немає.</p>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12 p-0">
+      <img class="w-100" src="assets/metromap-line-n7.png">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <p class="caption">Схеми будуть розташовані над дверима</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <h2>Примірки</h2>
+      <p>У&nbsp;якості будь-якого дизайн-проекту, який не&nbsp;призначений для екрану, не&nbsp;можна бути вневненим доки бачиш його тільки на&nbsp;екрані. Будь-які гіпотези та&nbsp;рішення повинні пройти тестування. Ми&nbsp;друкували кожну версію, розвішували на&nbsp;стінах Часописа та&nbsp;обговорювали&nbsp;їх, а&nbsp;вже потім приміряли усі варіанти у&nbsp;вагонах. Тільки завдяки тестам ми&nbsp;визначили оптимальні розміри самих схем і&nbsp;тексту на&nbsp;них.</p>
+    </div>
+
+    <div class="col-lg-6 col-12">   <img class="w-100" src="assets/metromap-line-n8-1.jpeg"><p class="caption">Різні варіанти на стіні у Часописі</p></div>
+    <div class="col-lg-6 col-12">   <img class="w-100" src="assets/metromap-line-n8-2.jpeg"><p class="caption">Тестування у вагонах</p></div>
+    <div class="col-lg-12 col-12">  <img class="w-100" src="assets/metromap-line-n8-3.jpeg"><p class="caption">Купа схем різних версій та саморобний блокнот</p></div>
+
+    <div class="col-lg-9 col-12">
+      <p>
+        Спочатку здається: якщо зробити схеми якомога більшого розміру, всім буде добре. Але тестування великих варіантів у&nbsp;вагонах показало, що&nbsp;надто великі схеми теж некомфортно читати, як&nbsp;і&nbsp;надто маленькі.
+      </p>
+      <p>
+        Після перших тестів зробили, як і на загальних схемах, — розмістили заклик надсилати зворотній зв’язок на пошту.
+      </p>
+    </div>
+
+    <div class="col-12">
+      <img class="w-100 mb-3 metromap-border" src="assets/beta/metromap-beta_M1-red-reverse.png">
+      <!-- <img class="w-100 mb-3 metromap-border" src="assets/beta/metromap-beta_M1-red.png"> -->
+      <img class="w-100 mb-3 metromap-border" src="assets/beta/metromap-beta_M2-blue-reverse.png">
+      <!-- <img class="w-100 mb-3 metromap-border" src="assets/beta/metromap-beta_M2-blue.png"> -->
+      <img class="w-100 mb-3 metromap-border" src="assets/beta/metromap-beta_M3-green-reverse-01.png">
+      <!-- <img class="w-100 mb-3 metromap-border" src="assets/beta/metromap-beta_M3-green.png"> -->
+      <img class="w-100 mb-3" src="assets/beta/metromap-line-beta-photo-1.jpg">
+      <!-- <img class="w-100" src="assets/beta/metromap-line-beta-photo-2.jpg"> -->
+      <!-- <img class="w-100" src="assets/beta/metromap-line-beta-photo-3.jpg"> -->
+      <p class="caption">Бета-версія схем у вагонах</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <h2>Схеми для вагонів 81-7021 та 81-7022</h2>
+    </div>
+    <div class="col-lg-9 col-12">
+      <p class="">У&nbsp;метро багато різних моделей вагонів і&nbsp;місця для схем в&nbsp;них дещо відрізняються. Іноді складається враження, що&nbsp;при створенні нових вагонів конструктори не&nbsp;думали, що&nbsp;у&nbsp;метро потрібні схеми, тому для схем не&nbsp;передбачені місця. Один з&nbsp;таких прикладів&nbsp;&mdash; вагони серії <span style="white-space: nowrap;">81-7021/7022</span>, всередині яких на&nbsp;стінах немає достатньо місць для загальної схеми, а&nbsp;над дверима розташовані технічні дверцята, на&nbsp;які не&nbsp;повісиш суцільну лінійну схему. Тож для такого випадку ми&nbsp;зробили додаткову розрізну на&nbsp;кілька частин версію лінійної схеми.</p>
+    </div>
+
+
+    <div class="col-lg-3 col-12">
+      <p class="caption m-lg-0"><a href="https://uk.wikipedia.org/wiki/Вагон_метро_81-7021/7022" target="_blank">Вагони серії 81-7021/7022</a></p>
+    </div>
+<!--       <img height="100" class="doc-shadow" src="assets/81-7021/metromap_M3-green-81-7021-reverse-1.jpeg">
+      <img height="100" class="doc-shadow" src="assets/81-7021/metromap_M3-green-81-7021-reverse-2.jpeg">
+      <img height="100" class="doc-shadow" src="assets/81-7021/metromap_M3-green-81-7021-reverse-3.jpeg">
+      <img height="100" class="doc-shadow" src="assets/81-7021/metromap_M3-green-81-7021-averse-1.jpeg">
+      <img height="100" class="doc-shadow" src="assets/81-7021/metromap_M3-green-81-7021-averse-2.jpeg">
+      <img height="100" class="doc-shadow" src="assets/81-7021/metromap_M3-green-81-7021-averse-3.jpeg"> -->
+      
+    <div class="col-12 mt-3">
+      <img class="w-100 mb-3" src="assets/81-7021/81-7021-2.jpeg">
+      <img class="w-100 mb-3" src="assets/81-7021/81-7021-1.jpeg">
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container mb-5 mt-5">
+  <div class="row">
+    <div class="col-lg-9 col-12">
+      <h2>Ідеальне майбутнє</h2>
+      <p>Багато хто скаже, що&nbsp;треба було зробити інтерактивні схеми або повісити екрани. І&nbsp;будете праві. Наприклад, у&nbsp;Стамбулі або Москві встановлені світлодіодні схеми, де&nbsp;діоди відображають положення поїздів на&nbsp;лінії. А&nbsp;в&nbsp;Лондоні у&nbsp;нових потягах встановлюють повноцінні екрани для відображення лінійної схеми із&nbsp;позначеним на&nbsp;ній поїздом та&nbsp;іншою актуальною інформацією для пасажирів. Проте є&nbsp;одне &laquo;але&raquo;&nbsp;&mdash; гроші. Поки київське метро підприємство небагате, звичайні статичні схеми вирішують більшість задач пасажирів, при цьому у&nbsp;рази дешевші.</p>
+    </div>
+    <div class="col-12">
+      <img class="w-100" src="assets/metromap-line-n9.jpeg">  
+    </div>
+
+
+    <div class="col-lg-9 col-12 mt-5">
+      <h2>Січень 2021: у&nbsp;метро з&rsquo;явились схеми з&nbsp;лампочками</h2>
+      <p>
+        У&nbsp;сюжеті серіалу &laquo;<a href="https://youtu.be/RdIEbm75I64?t=209" target="_blank">Метро</a>&raquo; від UA Першого можна побачити, як&nbsp;у&nbsp;нещодавно відремонтованому вагоні з&rsquo;явилася схема з&nbsp;лампочками.
+      </p>
+    </div>
+    <div class="col-12">
+      <a href="https://youtu.be/RdIEbm75I64?t=209" target="_blank"><img class="w-100" src="assets/metromap-with-lights-01-2021.jpg"></a>
+      <!-- <p class="caption">Фрагмент з <a href="https://youtu.be/RdIEbm75I64?t=209" target="_blank">серіалу «Метро»</a> від UA Першого</p> -->
+
+<!--         <iframe class="" src="https://www.youtube.com/embed/RdIEbm75I64?start=209" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 mb-5 mt-3">
+    <div class="likely">
+      <div class="facebook">Поширити</div>
+      <div class="twitter">Твітнути</div>
+      <div class="telegram">Надіслати</div>
+      <div class="gplus">+1</div>
+      <div class="pinterest" data-media="assets/cover.jpg">Запінити</div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid bg-light pt-lg-2 pt-4 pb-5">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 mb-2">
+      <h5>Над проектом працювали:</h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-2 col-12">
+      <ul class="credits">
+        <li class="credits-header">Дизайнери</li>
+        <li>Ігор Скляревський</li>
+        <li>Рей Мейсон</li>
+        <li>Олександр Колодько</li>
+        <li>Юра Грановський</li>
+        <li>Саша Зайцев</li>
+        <li>Владислав Кулик</li>
+      </ul>
+    </div>
+    <div class="col-lg-2 col-12">
+      <ul class="credits">
+        <li class="credits-header">Ілюстратор</li>
+        <li>Даша Подольцева</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+  <span id="since">2014 — <span id="get-full-year">…</span> © Агенти змін</span>
+  <span style="margin-left: 25px;">
+    <a class="mr-3 text-link" href="/products">Що ми робимо</a>
+    <a class="mr-3 text-link" href="/projects">Проекти</a>
+<a class="mr-3 text-link" href="/donate">Фонд</a>
+    
+    <a class="mr-3 text-link" href="/about">Про нас</a>
+    <a class="mr-3 text-link" href="/manifest">Маніфест</a>
+<a class="mr-3 text-link" href="http://blog.a3.kyiv.ua" target="_blank">Блог</a>
+  </span>
+  </div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <!-- Retina js -->
+    <script type="text/javascript" src="/js/retina.min.js"></script>
+
+    <!-- Fotorama gallery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+    <script src="/js/fotorama.js"></script> <!-- 16 KB -->
+    
+    <!-- Likely -->
+    <script src="/js/likely.js"></script>
+
+
+    <script src="/js/get-full-year.js"></script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71269206-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-71269206-1');
+</script>
+</body></html>
