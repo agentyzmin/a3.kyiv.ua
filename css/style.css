@@ -780,10 +780,9 @@ a > .project-card::after {
 }
 
 .fill {
+    width: 100%;
+    object-fit: cover;
     overflow: hidden;
-    background-size: cover;
-    background-position: center;
-
 }
 
 .navbar, .navbar-toggler, .navbar-brand{
